@@ -1,0 +1,30 @@
+REMARK   1 CREATED WITH FORCEBALANCE 2021-05-26
+HETATM    1  C1  UNK A   0      -2.655   1.723   0.061  0.00  0.00           C  
+HETATM    2  C2  UNK A   0      -2.731   1.937   1.596  0.00  0.00           C  
+HETATM    3  C3  UNK A   0      -1.125   0.673   1.076  0.00  0.00           C  
+HETATM    4  C4  UNK A   0       0.807  -0.372  -0.008  0.00  0.00           C  
+HETATM    5  C5  UNK A   0       1.895   0.745  -0.087  0.00  0.00           C  
+HETATM    6  N6  UNK A   0      -1.657   0.953  -0.208  0.00  0.00           N  
+HETATM    7  N7  UNK A   0      -1.783   1.278   2.168  0.00  0.00           N  
+HETATM    8  O8  UNK A   0       0.624  -1.361  -0.587  0.00  0.00           O  
+HETATM    9  O9  UNK A   0      -0.092  -0.018   1.247  0.00  0.00           O  
+HETATM   10  F10 UNK A   0       2.660   0.664   0.997  0.00  0.00           F  
+HETATM   11  F11 UNK A   0       2.600   0.562  -1.185  0.00  0.00           F  
+HETATM   12  F12 UNK A   0       1.278   1.937  -0.118  0.00  0.00           F  
+HETATM   13  H13 UNK A   0      -3.310   2.146  -0.698  0.00  0.00           H  
+HETATM   14  H14 UNK A   0      -3.445   2.554   2.138  0.00  0.00           H  
+TER      15      UNK A   0
+CONECT    1    2    6   13
+CONECT    2    1    7   14
+CONECT    3    6    7    9
+CONECT    4    5    8    9
+CONECT    5    4   10   11   12
+CONECT    6    1    3
+CONECT    7    2    3
+CONECT    8    4
+CONECT    9    3    4
+CONECT   10    5
+CONECT   11    5
+CONECT   12    5
+CONECT   13    1
+CONECT   14    2

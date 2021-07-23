@@ -1,0 +1,10 @@
+REMARK   1 CREATED WITH FORCEBALANCE 2021-05-26
+HETATM    1  P1  UNK A   0      -0.639   0.394   0.106  0.00  0.00           P  
+HETATM    2 Br2  UNK A   0       0.338   0.575  -1.939  0.00  0.00          Br  
+HETATM    3 Br3  UNK A   0      -0.793  -1.861   0.346  0.00  0.00          Br  
+HETATM    4 Br4  UNK A   0       1.096   0.887   1.488  0.00  0.00          Br  
+TER       5      UNK A   0
+CONECT    1    2    3    4
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1

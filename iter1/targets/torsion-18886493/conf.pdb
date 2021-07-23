@@ -1,0 +1,78 @@
+REMARK   1 CREATED WITH FORCEBALANCE 2021-05-26
+HETATM    1  C1  UNK A   0       0.617   1.043   1.980  0.00  0.00           C  
+HETATM    2  C2  UNK A   0       0.625   0.377   0.759  0.00  0.00           C  
+HETATM    3  C3  UNK A   0       2.865  -0.421   1.234  0.00  0.00           C  
+HETATM    4  C4  UNK A   0       0.568   1.790   4.930  0.00  0.00           C  
+HETATM    5  C5  UNK A   0       2.872   0.253   2.464  0.00  0.00           C  
+HETATM    6  C6  UNK A   0       1.727   0.986   2.834  0.00  0.00           C  
+HETATM    7  C7  UNK A   0       1.761  -0.350   0.391  0.00  0.00           C  
+HETATM    8  C8  UNK A   0       2.174   2.905   5.821  0.00  0.00           C  
+HETATM    9  C9  UNK A   0       2.689   2.387   4.642  0.00  0.00           C  
+HETATM   10  C10 UNK A   0       2.879   3.737   6.761  0.00  0.00           C  
+HETATM   11  C11 UNK A   0       4.256   4.965   7.857  0.00  0.00           C  
+HETATM   12  C12 UNK A   0       4.091  -0.003   3.331  0.00  0.00           C  
+HETATM   13  C13 UNK A   0       4.029   2.387   3.992  0.00  0.00           C  
+HETATM   14  C14 UNK A   0       6.482   4.780   8.967  0.00  0.00           C  
+HETATM   15  C15 UNK A   0       5.693   0.813   4.998  0.00  0.00           C  
+HETATM   16  C16 UNK A   0       5.508   5.697   8.202  0.00  0.00           C  
+HETATM   17  N17 UNK A   0       0.848   2.525   5.977  0.00  0.00           N  
+HETATM   18  N18 UNK A   0       4.167   4.081   6.731  0.00  0.00           N  
+HETATM   19  N19 UNK A   0       3.050   5.328   8.229  0.00  0.00           N  
+HETATM   20  N20 UNK A   0       1.656   1.671   4.076  0.00  0.00           N  
+HETATM   21  N21 UNK A   0       4.615   1.043   4.037  0.00  0.00           N  
+HETATM   22  O22 UNK A   0       4.580  -1.134   3.343  0.00  0.00           O  
+HETATM   23  O23 UNK A   0       2.369   4.047   7.970  0.00  0.00           O  
+HETATM   24 Cl24 UNK A   0       1.788  -1.187  -1.146  0.00  0.00          Cl  
+HETATM   25  H25 UNK A   0      -0.249   1.631   2.267  0.00  0.00           H  
+HETATM   26  H26 UNK A   0      -0.232   0.430   0.096  0.00  0.00           H  
+HETATM   27  H27 UNK A   0       3.728  -1.022   0.969  0.00  0.00           H  
+HETATM   28  H28 UNK A   0      -0.372   1.292   4.733  0.00  0.00           H  
+HETATM   29  H29 UNK A   0       3.953   2.727   2.952  0.00  0.00           H  
+HETATM   30  H30 UNK A   0       4.685   3.071   4.528  0.00  0.00           H  
+HETATM   31  H31 UNK A   0       6.037   4.428   9.903  0.00  0.00           H  
+HETATM   32  H32 UNK A   0       7.400   5.323   9.208  0.00  0.00           H  
+HETATM   33  H33 UNK A   0       6.749   3.906   8.365  0.00  0.00           H  
+HETATM   34  H34 UNK A   0       6.579   1.392   4.718  0.00  0.00           H  
+HETATM   35  H35 UNK A   0       5.372   1.122   5.998  0.00  0.00           H  
+HETATM   36  H36 UNK A   0       5.939  -0.247   4.997  0.00  0.00           H  
+HETATM   37  H37 UNK A   0       5.983   6.051   7.281  0.00  0.00           H  
+HETATM   38  H38 UNK A   0       5.242   6.563   8.814  0.00  0.00           H  
+TER      39      UNK A   0
+CONECT    1    2    6   25
+CONECT    2    1    7   26
+CONECT    3    5    7   27
+CONECT    4   17   20   28
+CONECT    5    3    6   12
+CONECT    6    1    5   20
+CONECT    7    2    3   24
+CONECT    8    9   10   17
+CONECT    9    8   13   20
+CONECT   10    8   18   23
+CONECT   11   16   18   19
+CONECT   12    5   21   22
+CONECT   13    9   21   29   30
+CONECT   14   16   31   32   33
+CONECT   15   21   34   35   36
+CONECT   16   11   14   37   38
+CONECT   17    4    8
+CONECT   18   10   11
+CONECT   19   11   23
+CONECT   20    4    6    9
+CONECT   21   12   13   15
+CONECT   22   12
+CONECT   23   10   19
+CONECT   24    7
+CONECT   25    1
+CONECT   26    2
+CONECT   27    3
+CONECT   28    4
+CONECT   29   13
+CONECT   30   13
+CONECT   31   14
+CONECT   32   14
+CONECT   33   14
+CONECT   34   15
+CONECT   35   15
+CONECT   36   15
+CONECT   37   16
+CONECT   38   16

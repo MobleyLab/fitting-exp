@@ -1,0 +1,50 @@
+REMARK   1 CREATED WITH FORCEBALANCE 2021-05-26
+HETATM    1  C1  UNK A   0       2.259   1.933  -2.319  0.00  0.00           C  
+HETATM    2  C2  UNK A   0       1.478   2.019  -0.023  0.00  0.00           C  
+HETATM    3  C3  UNK A   0       3.166   2.963  -2.056  0.00  0.00           C  
+HETATM    4  C4  UNK A   0       2.391   3.038   0.252  0.00  0.00           C  
+HETATM    5  C5  UNK A   0      -0.992  -2.920  -1.585  0.00  0.00           C  
+HETATM    6  C6  UNK A   0      -1.598  -4.031  -1.064  0.00  0.00           C  
+HETATM    7  C7  UNK A   0       2.127  -2.196   0.702  0.00  0.00           C  
+HETATM    8  C8  UNK A   0       0.083  -2.448  -0.766  0.00  0.00           C  
+HETATM    9  C9  UNK A   0       1.416   1.460  -1.306  0.00  0.00           C  
+HETATM   10  C10 UNK A   0       3.225   3.500  -0.769  0.00  0.00           C  
+HETATM   11  C11 UNK A   0       0.302  -3.291   0.369  0.00  0.00           C  
+HETATM   12  C12 UNK A   0       0.786  -1.166  -0.708  0.00  0.00           C  
+HETATM   13  N13 UNK A   0       1.428  -3.205   1.196  0.00  0.00           N  
+HETATM   14  N14 UNK A   0       1.490  -1.019   0.407  0.00  0.00           N  
+HETATM   15  S15 UNK A   0      -0.862  -4.576   0.426  0.00  0.00           S  
+HETATM   16  S16 UNK A   0       0.229   0.184  -1.704  0.00  0.00           S  
+HETATM   17 Br17 UNK A   0       4.476   4.903  -0.395  0.00  0.00          Br  
+HETATM   18  H18 UNK A   0       2.215   1.494  -3.312  0.00  0.00           H  
+HETATM   19  H19 UNK A   0       0.824   1.655   0.761  0.00  0.00           H  
+HETATM   20  H20 UNK A   0       3.821   3.331  -2.839  0.00  0.00           H  
+HETATM   21  H21 UNK A   0       2.449   3.467   1.246  0.00  0.00           H  
+HETATM   22  H22 UNK A   0      -1.327  -2.434  -2.495  0.00  0.00           H  
+HETATM   23  H23 UNK A   0      -2.448  -4.571  -1.461  0.00  0.00           H  
+HETATM   24  H24 UNK A   0       3.172  -2.105   1.018  0.00  0.00           H  
+TER      25      UNK A   0
+CONECT    1    3    9   18
+CONECT    2    4    9   19
+CONECT    3    1   10   20
+CONECT    4    2   10   21
+CONECT    5    6    8   22
+CONECT    6    5   15   23
+CONECT    7   13   14   24
+CONECT    8    5   11   12
+CONECT    9    1    2   16
+CONECT   10    3    4   17
+CONECT   11    8   13   15
+CONECT   12    8   14   16
+CONECT   13    7   11
+CONECT   14    7   12
+CONECT   15    6   11
+CONECT   16    9   12
+CONECT   17   10
+CONECT   18    1
+CONECT   19    2
+CONECT   20    3
+CONECT   21    4
+CONECT   22    5
+CONECT   23    6
+CONECT   24    7

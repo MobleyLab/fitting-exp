@@ -1,0 +1,186 @@
+$global
+bond_denom 0.05
+angle_denom 8.0
+dihedral_denom 10.0
+improper_denom 20.0
+$end
+$system
+name 18433138-0
+geometry 18433138-0.xyz
+topology 18433138-0.pdb
+mol2 18433138-0.sdf
+$end
+$system
+name 18433139-1
+geometry 18433139-1.xyz
+topology 18433139-1.pdb
+mol2 18433139-1.sdf
+$end
+$system
+name 18433140-2
+geometry 18433140-2.xyz
+topology 18433140-2.pdb
+mol2 18433140-2.sdf
+$end
+$system
+name 18433141-3
+geometry 18433141-3.xyz
+topology 18433141-3.pdb
+mol2 18433141-3.sdf
+$end
+$system
+name 18433143-4
+geometry 18433143-4.xyz
+topology 18433143-4.pdb
+mol2 18433143-4.sdf
+$end
+$system
+name 18433144-5
+geometry 18433144-5.xyz
+topology 18433144-5.pdb
+mol2 18433144-5.sdf
+$end
+$system
+name 18433145-6
+geometry 18433145-6.xyz
+topology 18433145-6.pdb
+mol2 18433145-6.sdf
+$end
+$system
+name 18433146-7
+geometry 18433146-7.xyz
+topology 18433146-7.pdb
+mol2 18433146-7.sdf
+$end
+$system
+name 18433147-8
+geometry 18433147-8.xyz
+topology 18433147-8.pdb
+mol2 18433147-8.sdf
+$end
+$system
+name 18433148-9
+geometry 18433148-9.xyz
+topology 18433148-9.pdb
+mol2 18433148-9.sdf
+$end
+$system
+name 18433150-10
+geometry 18433150-10.xyz
+topology 18433150-10.pdb
+mol2 18433150-10.sdf
+$end
+$system
+name 18433149-11
+geometry 18433149-11.xyz
+topology 18433149-11.pdb
+mol2 18433149-11.sdf
+$end
+$system
+name 18433151-12
+geometry 18433151-12.xyz
+topology 18433151-12.pdb
+mol2 18433151-12.sdf
+$end
+$system
+name 18433152-13
+geometry 18433152-13.xyz
+topology 18433152-13.pdb
+mol2 18433152-13.sdf
+$end
+$system
+name 18433153-14
+geometry 18433153-14.xyz
+topology 18433153-14.pdb
+mol2 18433153-14.sdf
+$end
+$system
+name 18433154-15
+geometry 18433154-15.xyz
+topology 18433154-15.pdb
+mol2 18433154-15.sdf
+$end
+$system
+name 18433156-16
+geometry 18433156-16.xyz
+topology 18433156-16.pdb
+mol2 18433156-16.sdf
+$end
+$system
+name 18433155-17
+geometry 18433155-17.xyz
+topology 18433155-17.pdb
+mol2 18433155-17.sdf
+$end
+$system
+name 18433157-18
+geometry 18433157-18.xyz
+topology 18433157-18.pdb
+mol2 18433157-18.sdf
+$end
+$system
+name 18433160-19
+geometry 18433160-19.xyz
+topology 18433160-19.pdb
+mol2 18433160-19.sdf
+$end
+$system
+name 18433162-20
+geometry 18433162-20.xyz
+topology 18433162-20.pdb
+mol2 18433162-20.sdf
+$end
+$system
+name 18433161-21
+geometry 18433161-21.xyz
+topology 18433161-21.pdb
+mol2 18433161-21.sdf
+$end
+$system
+name 18433158-22
+geometry 18433158-22.xyz
+topology 18433158-22.pdb
+mol2 18433158-22.sdf
+$end
+$system
+name 18433159-23
+geometry 18433159-23.xyz
+topology 18433159-23.pdb
+mol2 18433159-23.sdf
+$end
+$system
+name 18433163-24
+geometry 18433163-24.xyz
+topology 18433163-24.pdb
+mol2 18433163-24.sdf
+$end
+$system
+name 18433164-25
+geometry 18433164-25.xyz
+topology 18433164-25.pdb
+mol2 18433164-25.sdf
+$end
+$system
+name 18433165-26
+geometry 18433165-26.xyz
+topology 18433165-26.pdb
+mol2 18433165-26.sdf
+$end
+$system
+name 18433166-27
+geometry 18433166-27.xyz
+topology 18433166-27.pdb
+mol2 18433166-27.sdf
+$end
+$system
+name 18433167-28
+geometry 18433167-28.xyz
+topology 18433167-28.pdb
+mol2 18433167-28.sdf
+$end
+$system
+name 18433168-29
+geometry 18433168-29.xyz
+topology 18433168-29.pdb
+mol2 18433168-29.sdf
+$end
