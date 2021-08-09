@@ -1,0 +1,11 @@
+{
+  "qm-structure": "/dfs4/dmobley-lab/pbehara/fitting-exp/benchmark-data/02-chunks/01-processed-qm",
+  "qm-label": "B3LYP-D3BJ/DZVP",
+  "qm-tag": "Energy QCArchive",
+  "mm-structures": {
+    "iter0": "/dfs4/dmobley-lab/pbehara/fitting-exp/benchmark-data/02-outputs/openff-2-0-0",
+    "iter1": "02-outputs/iter1"
+  },
+  "mm-tag": "Energy FFXML",
+  "record-id-tag": "Record QCArchive"
+}

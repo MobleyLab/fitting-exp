@@ -1,0 +1,12 @@
+{
+  "qm-structure": "02-chunks/01-processed-qm",
+  "qm-label": "B3LYP-D3BJ/DZVP",
+  "qm-tag": "Energy QCArchive",
+  "mm-structures": {
+    "OpenFF 1.2.0": "02-outputs/openff-1-2-0",
+    "OpenFF 1.3.0": "02-outputs/openff-1-3-0",
+    "OpenFF 2.0.0rc1": "02-outputs/openff-2-0-0"
+  },
+  "mm-tag": "Energy FFXML",
+  "record-id-tag": "Record QCArchive"
+}
