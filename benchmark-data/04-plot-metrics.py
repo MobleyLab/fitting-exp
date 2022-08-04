@@ -190,6 +190,52 @@ def draw_step_plot(
     pyplot.close("all")
 
 
+def draw_ddE_histogram_in_ranges(
+    plot_data: List[numpy.ndarray],
+    method_labels: List[str],
+    metric: str,
+    output_path: str,
+):
+    """Draw bar plot with ddE in bins of ranges of deltaE.
+
+    Parameters
+    ----------
+    plot_data
+        A list of the arrays where ``plot_data[i]`` contains the particular metric of
+        interest associated with ``method_labels[i]``.
+    method_labels
+        The label associated with each data series.
+    metric
+        The metric contained in the ``plot_data``.
+    output_path
+        The path to save the final plot to.
+    """
+    bins = numpy.array([-150, -5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 100])
+    bin_inds = {}
+    for i in range(len(method_labels)):
+        bin_inds[i] = numpy.digitize(plot_data[i], bins)
+    counts = {}
+    for i in range(len(method_labels)):
+        counts[i] = Counter(bin_inds[i])
+    pyplot.rcParams['font.size'] = 14
+    fig = pyplot.figure(figsize=(10,6))
+    width=0.15
+    x = [1,2,3,4,5]
+    mid = int(len(bins)/2)
+    y = {}
+    for i in range(len(method_labels)):
+        y[i] = [counts[i][mid], counts[i][mid-1]+counts[i][mid+1], counts[i][mid-2]+counts[i][mid+2], counts[i][mid-3]+counts[i][mid+3], counts[i][mid-4]+counts[i][mid+4]]
+        y[i] = [t/(sum(counts[i].values()) - counts[i][len(bins)]) for t in y[i]]
+        xw = [t+(i-1)*width for t in x]
+        pyplot.bar(xw, y[i], width=width, alpha=0.6, label=method_labels[i])
+    pyplot.xlabel("ddE (kcal/mol) in ranges of [-1, 1], \n [-2, -1] & [1, 2], \n [-3, -2] & [2, 3], ...")
+    pyplot.ylabel("Densities")
+    pyplot.legend()
+    # save with transparency for overlapping plots
+    pyplot.savefig(output_path, dpi=600, transparent=True, bbox_inches="tight")
+    pyplot.close("all")
+
+
 def draw_box_plot(
     plot_data: List[numpy.ndarray],
     method_labels: List[str],
@@ -253,6 +299,12 @@ def draw_plots(energies, rmsds, tfds, method_labels, output_directory):
         metric="ddE (kcal/mol)",
         x_range=(-15.0, 15.0),
         output_path=os.path.join(output_directory, "step-dde.png"),
+    )
+    draw_ddE_histogram_in_ranges(
+        energies,
+        method_labels,
+        metric="ddE (kcal/mol)",
+        output_path=os.path.join(output_directory, "dde-in-ranges.png"),
     )
 
     for key, values in rmsds.items():
