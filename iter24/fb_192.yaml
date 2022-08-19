@@ -1,0 +1,21 @@
+name: fb_192
+channels:
+  - conda-forge
+  - openeye
+  - defaults
+dependencies:
+  - python =3.7
+  - mamba
+    
+  # MM calculations
+  - openff-toolkit=0.10.0
+  - openeye-toolkits=2021.1.1
+  - openff-forcefields
+  - openmm 
+  - openmmforcefields
+  - conda-forge::libiconv
+  - ambertools
+  - forcebalance=1.9.2
+  - ndcctools
+  - cmiles
+  - geometric
