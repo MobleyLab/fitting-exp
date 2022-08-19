@@ -1,4 +1,5 @@
 - Priors in
+```
   priors
      Angles/Angle/k :  100.0
      Angles/Angle/angle :  20.0
@@ -7,18 +8,19 @@
      ProperTorsions/Proper/k :  1.0
      ImproperTorsions/Improper/k :  1.0
   /priors
-  
+  ```
 
 - Target options
+```
   $global
   bond_denom 0.05
   angle_denom 8.0
   dihedral_denom 15.0
   improper_denom 15.0
   $end
-  
+```  
 - Datasets used in training
-  
+```  
   Excluding Iodine from Gen2 sets,
     Torsions:
             "OpenFF Gen 2 Torsion Set 1 Roche 2",
@@ -39,4 +41,4 @@
     Optimized-geometries:
             "OpenFF Gen2 Optimization Dataset Protomers v1.0",
             "OpenFF Iodine Chemistry Optimization Dataset v1.0"
-
+```
