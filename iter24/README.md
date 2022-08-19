@@ -5,6 +5,7 @@ Includes the following improvements over Sage
 - Optimizing impropers as well
 - New torsion parameters to describe pyramidal bridgehead nitrogen chemistry (only optimizing with one optgeo target from vehicle set, opt-geo-batch-167/2054696-7)
 - Some changes to general parameters to include the following chemistries
+```
          modification: b43 changed from [#8X2:1]-[#8X2:2] to [#8X2:1]-[#8X2,#8X1-1:2] -->
          modification: b53 changed from [#16X2:1]-[#7:2] to [#16X2,#16X1-1:1]-[#7:2] -->
          modification: a18 changed from [*:1]-[#7X4,#7X3,#7X2-1:2]-[*:3] to [*:1]~[#7X4,#7X3,#7X2-1:2]~[*:3] -->
@@ -13,7 +14,7 @@ Includes the following improvements over Sage
          modification: t138a as a child parameter to include [#7X2]-[#7X4] chemistry, other general force fields can parameterize this -->
          modification: new parameters for bridgehead Nitrogen chemistry based on t134 and t138 and tweaking the central Nitrogen to be 7x3 -->
          modification: t161 changed from "[*:1]~[#7X3:2]-[#15:3]~[*:4]" to "[*:1]~[#7:2]-[#15:3]~[*:4]" to make it more general -->
-
+```
 - Phosphorous torsion training target included (for t123) to alleviate the high gradients on angle parameter a40 that move the parameter values far away from expected values. 
 
 
