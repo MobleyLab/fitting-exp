@@ -1,0 +1,375 @@
+<SMIRNOFF version="0.3" aromaticity_model="OEAroModel_MDL">
+	<Author>The Open Force Field Initiative</Author>
+	<Date>2021-08-16</Date>
+	<Constraints version="0.3">
+		<Constraint smirks="[#1:1]-[#8X2H2+0:2]-[#1]" id="c-tip3p-H-O" distance="0.9572 * angstrom"/>
+		<Constraint smirks="[#1:1]-[#8X2H2+0]-[#1:2]" id="c-tip3p-H-O-H" distance="1.5139006545247014 * angstrom"/>
+	</Constraints>
+	<Bonds version="0.4" potential="harmonic" fractional_bondorder_method="AM1-Wiberg" fractional_bondorder_interpolation="linear">
+		<Bond smirks="[#6X4:1]-[#6X4:2]" id="b1" length="1.533329432446e+00 * angstrom" k="4.382923277941e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X4:1]-[#6X3:2]" id="b2" length="1.506275722402e+00 * angstrom" k="4.832708288681e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X4:1]-[#6X3:2]=[#8X1+0]" id="b3" length="1.531773096726e+00 * angstrom" k="4.013618681620e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1]-[#6X3:2]" id="b4" length="1.463277590387e+00 * angstrom" k="4.954133670887e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1]:[#6X3:2]" id="b5" length="1.394312409410e+00 * angstrom" k="7.347783766550e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1]=[#6X3:2]" id="b6" length="1.382071356028e+00 * angstrom" k="1.001187658139e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6:1]-[#7:2]" id="b7" length="1.478883412188e+00 * angstrom" k="4.457659888428e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1]-[#7X3:2]" id="b8" length="1.395376331456e+00 * angstrom" k="6.449455988304e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X4:1]-[#7X3:2]-[#6X3]=[#8X1+0]" id="b9" length="1.464068026581e+00 * angstrom" k="4.643801909911e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1](=[#8X1+0])-[#7X3:2]" id="b10" length="1.395584810524e+00 * angstrom" k="5.228184840709e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1]-[#7X2:2]" id="b11" length="1.387489422274e+00 * angstrom" k="4.614342034900e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1]:[#7X2,#7X3+1:2]" id="b12" length="1.326483089645e+00 * angstrom" k="7.869954434649e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1]=[#7X2,#7X3+1:2]" id="b13" length="1.308779304490e+00 * angstrom" k="1.163915682499e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6:1]-[#8:2]" id="b14" length="1.429871505424e+00 * angstrom" k="5.063063678564e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1]-[#8X1-1:2]" id="b15" length="1.269232316780e+00 * angstrom" k="1.138196083983e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X4:1]-[#8X2H0:2]" id="b16" length="1.431663122769e+00 * angstrom" k="4.465860188449e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1]-[#8X2:2]" id="b17" length="1.345895520706e+00 * angstrom" k="6.138492522129e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1]-[#8X2H1:2]" id="b18" length="1.359613209337e+00 * angstrom" k="8.135021184325e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3a:1]-[#8X2H0:2]" id="b19" length="1.367984901308e+00 * angstrom" k="6.453264540991e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1](=[#8X1])-[#8X2H0:2]" id="b20" length="1.370793776152e+00 * angstrom" k="4.486218417245e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6:1]=[#8X1+0,#8X2+1:2]" id="b21" length="1.224280096603e+00 * angstrom" k="1.660204553649e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1](~[#8X1])~[#8X1:2]" id="b22" length="1.263022993026e+00 * angstrom" k="1.161631233336e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1]~[#8X2+1:2]~[#6X3]" id="b23" length="1.381872904954e+00 * angstrom" k="5.949281992218e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X2:1]-[#6:2]" id="b24" length="1.429891998320e+00 * angstrom" k="6.522489734266e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X2:1]-[#6X4:2]" id="b25" length="1.449053089506e+00 * angstrom" k="5.986334515190e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X2:1]=[#6X3:2]" id="b26" length="1.314711749542e+00 * angstrom" k="1.338502423150e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6:1]#[#7:2]" id="b27" length="1.154697507888e+00 * angstrom" k="2.638224667052e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X2:1]#[#6X2:2]" id="b28" length="1.220301726161e+00 * angstrom" k="2.326724360822e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X2:1]-[#8X2:2]" id="b29" length="1.324590205205e+00 * angstrom" k="9.229494254652e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X2:1]-[#7:2]" id="b30" length="1.339694669252e+00 * angstrom" k="9.421589534575e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X2:1]=[#7:2]" id="b31" length="1.212605828292e+00 * angstrom" k="1.903062363717e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16:1]=[#6:2]" id="b32" length="1.674216236512e+00 * angstrom" k="5.370730958445e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X2:1]=[#16:2]" id="b33" length="1.588833699894e+00 * angstrom" k="8.646043851731e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#7:1]-[#7:2]" id="b34" length="1.440176443129e+00 * angstrom" k="4.865181326485e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#7X3:1]-[#7X2:2]" id="b35" length="1.379803138003e+00 * angstrom" k="4.779841473005e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#7X2:1]-[#7X2:2]" id="b36" length="1.339712135166e+00 * angstrom" k="3.905621686989e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#7:1]:[#7:2]" id="b37" length="1.333891988928e+00 * angstrom" k="6.434297748159e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#7:1]=[#7:2]" id="b38" length="1.249451640579e+00 * angstrom" k="1.230284519642e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#7+1:1]=[#7-1:2]" id="b39" length="1.142661341621e+00 * angstrom" k="2.507787146739e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#7:1]#[#7:2]" id="b40" length="1.108707325831e+00 * angstrom" k="3.333944054128e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#7:1]-[#8X2:2]" id="b41" length="1.385311217666e+00 * angstrom" k="3.646222650421e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#7:1]~[#8X1:2]" id="b42" length="1.243800613910e+00 * angstrom" k="1.194991085635e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#8X2:1]-[#8X2,#8X1-1:2]" id="b43" length="1.445694058805e+00 * angstrom" k="4.671938382770e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16:1]-[#6:2]" id="b44" length="1.81 * angstrom" k="474.0 * angstrom**-2 * mole**-1 * kilocalorie"/>
+		<Bond smirks="[#16:1]-[#1:2]" id="b45" length="1.349044695436e+00 * angstrom" k="5.896821723938e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16:1]-[#16:2]" id="b46" length="2.097665625814e+00 * angstrom" k="2.740543283905e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16:1]-[#9:2]" id="b47" length="1.6 * angstrom" k="750.0 * angstrom**-2 * mole**-1 * kilocalorie"/>
+		<Bond smirks="[#16:1]-[#17:2]" id="b48" length="2.174845258759e+00 * angstrom" k="1.765524558177e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16:1]-[#35:2]" id="b49" length="2.329320988552e+00 * angstrom" k="1.625184225314e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16:1]-[#53:2]" id="b50" length="2.6 * angstrom" k="150.0 * angstrom**-2 * mole**-1 * kilocalorie"/>
+		<Bond smirks="[#16X2,#16X1-1,#16X3+1:1]-[#6X4:2]" id="b51" length="1.838412918919e+00 * angstrom" k="3.176974556205e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16X2,#16X1-1,#16X3+1:1]-[#6X3:2]" id="b52" length="1.773869357969e+00 * angstrom" k="3.470122445462e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16X2,#16X1-1:1]-[#7:2]" id="b53" length="1.727725183059e+00 * angstrom" k="2.683710354248e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16X2:1]-[#8X2:2]" id="b54" length="1.667076563034e+00 * angstrom" k="5.154406731551e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16X2:1]=[#8X1,#7X2:2]" id="b55" length="1.504121193675e+00 * angstrom" k="9.928065729037e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16X4,#16X3!+1:1]-[#6:2]" id="b56" length="1.828785268842e+00 * angstrom" k="3.157924497386e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16X4,#16X3:1]~[#7:2]" id="b57" length="1.722391748227e+00 * angstrom" k="3.682603780380e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16X4,#16X3:1]-[#8X2:2]" id="b58" length="1.635859807070e+00 * angstrom" k="4.111431131373e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16X4,#16X3:1]~[#8X1:2]" id="b59" length="1.473154890650e+00 * angstrom" k="1.194924947414e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#15:1]-[#1:2]" id="b60" length="1.409785339157e+00 * angstrom" k="4.995727359216e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#15:1]~[#6:2]" id="b61" length="1.812673494595e+00 * angstrom" k="3.473238084754e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#15:1]-[#7:2]" id="b62" length="1.721342082392e+00 * angstrom" k="4.972111985489e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#15:1]=[#7:2]" id="b63" length="1.562847070667e+00 * angstrom" k="7.346416222825e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#15:1]~[#8X2:2]" id="b64" length="1.614481931053e+00 * angstrom" k="5.450119987631e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#15:1]~[#8X1:2]" id="b65" length="1.489812492490e+00 * angstrom" k="1.371231847651e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#16:1]-[#15:2]" id="b66" length="2.069001950819e+00 * angstrom" k="3.371544335007e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#15:1]=[#16X1:2]" id="b67" length="1.970585667170e+00 * angstrom" k="4.488619498249e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6:1]-[#9:2]" id="b68" length="1.359199685662e+00 * angstrom" k="7.111612306913e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X4:1]-[#9:2]" id="b69" length="1.357570488832e+00 * angstrom" k="5.604600415406e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6:1]-[#17:2]" id="b70" length="1.746058242243e+00 * angstrom" k="3.726988349070e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X4:1]-[#17:2]" id="b71" length="1.784380346745e+00 * angstrom" k="2.353811515814e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6:1]-[#35:2]" id="b72" length="1.910433518286e+00 * angstrom" k="2.984510123544e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X4:1]-[#35:2]" id="b73" length="1.986250593496e+00 * angstrom" k="1.813428834520e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6:1]-[#53:2]" id="b74" length="2.248134950491e+00 * angstrom" k="8.074923744725e+01 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X4:1]-[#53:2]" id="b75" length="2.166 * angstrom" k="296.0 * angstrom**-2 * mole**-1 * kilocalorie"/>
+		<Bond smirks="[#7:1]-[#9:2]" id="b76" length="1.416138383805e+00 * angstrom" k="5.131691694631e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#7:1]-[#17:2]" id="b77" length="1.812907344951e+00 * angstrom" k="2.386664031717e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#7:1]-[#35:2]" id="b78" length="1.862384234274e+00 * angstrom" k="3.751812526852e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#7:1]-[#53:2]" id="b79" length="2.1 * angstrom" k="160.0 * angstrom**-2 * mole**-1 * kilocalorie"/>
+		<Bond smirks="[#15:1]-[#9:2]" id="b80" length="1.64 * angstrom" k="880.0 * angstrom**-2 * mole**-1 * kilocalorie"/>
+		<Bond smirks="[#15:1]-[#17:2]" id="b81" length="2.056117442880e+00 * angstrom" k="2.838945953725e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#15:1]-[#35:2]" id="b82" length="2.272769480182e+00 * angstrom" k="2.327738689135e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#15:1]-[#53:2]" id="b83" length="2.6 * angstrom" k="140.0 * angstrom**-2 * mole**-1 * kilocalorie"/>
+		<Bond smirks="[#6X4:1]-[#1:2]" id="b84" length="1.094623619587e+00 * angstrom" k="7.252110532894e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X3:1]-[#1:2]" id="b85" length="1.087139222013e+00 * angstrom" k="7.774648132531e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#6X2:1]-[#1:2]" id="b86" length="1.070333444051e+00 * angstrom" k="9.320629686670e+02 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#7:1]-[#1:2]" id="b87" length="1.007090276734e+00 * angstrom" k="1.001901133653e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+		<Bond smirks="[#8:1]-[#1:2]" id="b88" length="9.647010542409e-01 * angstrom" k="1.065424569881e+03 * angstrom**-2 * mole**-1 * kilocalorie" parameterize="length, k"/>
+	</Bonds>
+	<Angles version="0.3" potential="harmonic">
+		<Angle smirks="[*:1]~[#6X4:2]-[*:3]" angle="1.097276214352e+02 * degree" k="1.034186517800e+02 * mole**-1 * radian**-2 * kilocalorie" id="a1" parameterize="k, angle"/>
+		<Angle smirks="[#1:1]-[#6X4:2]-[#1:3]" angle="1.071599908025e+02 * degree" k="7.002333888884e+01 * mole**-1 * radian**-2 * kilocalorie" id="a2" parameterize="k, angle"/>
+		<Angle smirks="[*;r3:1]1~;@[*;r3:2]~;@[*;r3:3]1" angle="5.445820573266e+01 * degree" k="1.103741103854e+02 * mole**-1 * radian**-2 * kilocalorie" id="a3" parameterize="k, angle"/>
+		<Angle smirks="[*;r3:1]~;@[*;r3:2]~;!@[*:3]" angle="1.129580752750e+02 * degree" k="7.809297515674e+01 * mole**-1 * radian**-2 * kilocalorie" id="a4" parameterize="k, angle"/>
+		<Angle smirks="[*:1]~;!@[*;r3:2]~;!@[*:3]" angle="1.138832186586e+02 * degree" k="1.535609703740e+02 * mole**-1 * radian**-2 * kilocalorie" id="a5" parameterize="k, angle"/>
+		<Angle smirks="[#1:1]-[*;r3:2]~;!@[*:3]" angle="1.058947416766e+02 * degree" k="7.154189607999e+01 * mole**-1 * radian**-2 * kilocalorie" id="a6" parameterize="k, angle"/>
+		<Angle smirks="[#6r4:1]-;@[#6r4:2]-;@[#6r4:3]" angle="1.049278524519e+02 * degree" k="6.591970965702e+01 * mole**-1 * radian**-2 * kilocalorie" id="a7" parameterize="k, angle"/>
+		<Angle smirks="[!#1:1]-[#6r4:2]-;!@[!#1:3]" angle="1.175727023945e+02 * degree" k="2.387373390201e+02 * mole**-1 * radian**-2 * kilocalorie" id="a8" parameterize="k, angle"/>
+		<Angle smirks="[!#1:1]-[#6r4:2]-;!@[#1:3]" angle="1.115950501133e+02 * degree" k="9.812930163821e+01 * mole**-1 * radian**-2 * kilocalorie" id="a9" parameterize="k, angle"/>
+		<Angle smirks="[*:1]~[#6X3:2]~[*:3]" angle="1.197849166233e+02 * degree" k="1.356640429170e+02 * mole**-1 * radian**-2 * kilocalorie" id="a10" parameterize="k, angle"/>
+		<Angle smirks="[#1:1]-[#6X3:2]~[*:3]" angle="1.179275637785e+02 * degree" k="6.411899948677e+01 * mole**-1 * radian**-2 * kilocalorie" id="a11" parameterize="k, angle"/>
+		<Angle smirks="[#1:1]-[#6X3:2]-[#1:3]" angle="1.162180771086e+02 * degree" k="4.183744395821e+01 * mole**-1 * radian**-2 * kilocalorie" id="a12" parameterize="k, angle"/>
+		<Angle smirks="[*;r6:1]~;@[*;r5:2]~;@[*;r5;x2:3]" angle="1.267511035773e+02 * degree" k="1.444838179772e+02 * mole**-1 * radian**-2 * kilocalorie" id="a13" parameterize="k, angle"/>
+		<Angle smirks="[*:1]~;!@[*;X3;r5:2]~;@[*;r5:3]" angle="1.243860911288e+02 * degree" k="6.639985531935e+01 * mole**-1 * radian**-2 * kilocalorie" id="a14" parameterize="k, angle"/>
+		<Angle smirks="[#8X1:1]~[#6X3:2]~[#8:3]" angle="1.185231137772e+02 * degree" k="1.164236033510e+02 * mole**-1 * radian**-2 * kilocalorie" id="a15" parameterize="k, angle"/>
+		<Angle smirks="[*:1]~[#6X2:2]~[*:3]" angle="178.1285749041414 * degree" k="7.774115387357e+01 * mole**-1 * radian**-2 * kilocalorie" id="a16" parameterize="k"/>
+		<Angle smirks="[*:1]~[#7X2:2]~[*:3]" angle="172.72273241977712 * degree" k="1.218954532481e+02 * mole**-1 * radian**-2 * kilocalorie" id="a17" parameterize="k"/>
+		<Angle smirks="[*:1]~[#7X4,#7X3,#7X2-1:2]~[*:3]" angle="1.090017297417e+02 * degree" k="1.097737779887e+02 * mole**-1 * radian**-2 * kilocalorie" id="a18" parameterize="k, angle"/>
+		<Angle smirks="[#1:1]-[#7X4,#7X3,#7X2-1:2]-[*:3]" angle="1.092023107934e+02 * degree" k="7.663192009483e+01 * mole**-1 * radian**-2 * kilocalorie" id="a19" parameterize="k, angle"/>
+		<Angle smirks="[*:1]~[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]~[*:3]" angle="1.180696702453e+02 * degree" k="1.654566111730e+02 * mole**-1 * radian**-2 * kilocalorie" id="a20" parameterize="k, angle"/>
+		<Angle smirks="[#1:1]-[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]-[*:3]" angle="1.167504368310e+02 * degree" k="7.932992381264e+01 * mole**-1 * radian**-2 * kilocalorie" id="a21" parameterize="k, angle"/>
+		<Angle smirks="[*:1]~[#7X2+0:2]~[*:3]" angle="1.168471637605e+02 * degree" k="1.351909650392e+02 * mole**-1 * radian**-2 * kilocalorie" id="a22" parameterize="k, angle"/>
+		<Angle smirks="[*:1]~[#7X2+0:2]~[#6X2:3](~[#16X1])" angle="1.474808606540e+02 * degree" k="1.504321382916e+02 * mole**-1 * radian**-2 * kilocalorie" id="a23" parameterize="k, angle"/>
+		<Angle smirks="[#1:1]-[#7X2+0:2]~[*:3]" angle="1.146663082085e+02 * degree" k="9.752241036031e+01 * mole**-1 * radian**-2 * kilocalorie" id="a24" parameterize="k, angle"/>
+		<Angle smirks="[#6,#7,#8:1]-[#7X3:2](~[#8X1])~[#8X1:3]" angle="1.225769536182e+02 * degree" k="1.636908935701e+02 * mole**-1 * radian**-2 * kilocalorie" id="a25" parameterize="k, angle"/>
+		<Angle smirks="[#8X1:1]~[#7X3:2]~[#8X1:3]" angle="1.286298373718e+02 * degree" k="1.654841350942e+02 * mole**-1 * radian**-2 * kilocalorie" id="a26" parameterize="k, angle"/>
+		<Angle smirks="[*:1]~[#7X2:2]~[#7X1:3]" angle="174.64507332094666 * degree" k="1.230683884121e+02 * mole**-1 * radian**-2 * kilocalorie" id="a27" parameterize="k"/>
+		<Angle smirks="[*:1]-[#8:2]-[*:3]" angle="1.120397775096e+02 * degree" k="1.357877950858e+02 * mole**-1 * radian**-2 * kilocalorie" id="a28" parameterize="k, angle"/>
+		<Angle smirks="[#6X3,#7:1]~;@[#8;r:2]~;@[#6X3,#7:3]" angle="1.235291913946e+02 * degree" k="1.990121979186e+02 * mole**-1 * radian**-2 * kilocalorie" id="a29" parameterize="k, angle"/>
+		<Angle smirks="[*:1]-[#8X2+1:2]=[*:3]" angle="1.294322892302e+02 * degree" k="1.370676052966e+02 * mole**-1 * radian**-2 * kilocalorie" id="a30" parameterize="k, angle"/>
+		<Angle smirks="[*:1]~[#16X4:2]~[*:3]" angle="1.105109002578e+02 * degree" k="1.027547449638e+02 * mole**-1 * radian**-2 * kilocalorie" id="a31" parameterize="k, angle"/>
+		<Angle smirks="[*:1]-[#16X4,#16X3+0:2]-[*:3]" angle="1.032043116970e+02 * degree" k="1.796497045233e+02 * mole**-1 * radian**-2 * kilocalorie" id="a32" parameterize="k, angle"/>
+		<Angle smirks="[*:1]~[#16X3$(*~[#8X1,#7X2]):2]~[*:3]" angle="1.015152001890e+02 * degree" k="1.696125650088e+02 * mole**-1 * radian**-2 * kilocalorie" id="a33" parameterize="k, angle"/>
+		<Angle smirks="[*:1]~[#16X2,#16X3+1:2]~[*:3]" angle="1.013963182367e+02 * degree" k="1.112502329280e+02 * mole**-1 * radian**-2 * kilocalorie" id="a34" parameterize="k, angle"/>
+		<Angle smirks="[*:1]=[#16X2:2]=[*:3]" angle="180.0 * degree" k="140.0 * mole**-1 * radian**-2 * kilocalorie" id="a35"/>
+		<Angle smirks="[*:1]=[#16X2:2]=[#8:3]" angle="1.099367619711e+02 * degree" k="1.294051068816e+02 * mole**-1 * radian**-2 * kilocalorie" id="a36" parameterize="k, angle"/>
+		<Angle smirks="[#6X3:1]-[#16X2:2]-[#6X3:3]" angle="1.008201248089e+02 * degree" k="1.464997788776e+02 * mole**-1 * radian**-2 * kilocalorie" id="a37" parameterize="k, angle"/>
+		<Angle smirks="[#6X3:1]-[#16X2:2]-[#6X4:3]" angle="9.690163119967e+01 * degree" k="1.420719570121e+02 * mole**-1 * radian**-2 * kilocalorie" id="a38" parameterize="k, angle"/>
+		<Angle smirks="[#6X3:1]-[#16X2:2]-[#1:3]" angle="9.592215118872e+01 * degree" k="8.589395286857e+01 * mole**-1 * radian**-2 * kilocalorie" id="a39" parameterize="k, angle"/>
+		<Angle smirks="[*:1]~[#15:2]~[*:3]" angle="1.181171981881e+02 * degree" k="1.169405761805e+02 * mole**-1 * radian**-2 * kilocalorie" id="a40" parameterize="k, angle"/>
+	</Angles>
+	<ProperTorsions version="0.4" potential="k*(1+cos(periodicity*theta-phase))" default_idivf="auto" fractional_bondorder_method="AM1-Wiberg" fractional_bondorder_interpolation="linear">
+		<Proper smirks="[*:1]-[#6X4:2]-[#6X4:3]-[*:4]" periodicity1="3" phase1="0.0 * degree" id="t1" k1="1.309559660922e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]" periodicity1="3" periodicity2="2" periodicity3="1" phase1="0.0 * degree" phase2="180.0 * degree" phase3="180.0 * degree" id="t2" k1="7.082661897135e-02 * mole**-1 * kilocalorie" k2="3.879875644263e-01 * mole**-1 * kilocalorie" k3="1.570282455001e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]" periodicity1="3" phase1="0.0 * degree" id="t3" k1="2.153883313146e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]" periodicity1="3" phase1="0.0 * degree" id="t4" k1="9.571444938033e-02 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#8X2:1]-[#6X4:2]-[#6X4:3]-[#8X2:4]" periodicity1="3" periodicity2="2" phase1="0.0 * degree" phase2="0.0 * degree" id="t5" k1="3.523925438806e-02 * mole**-1 * kilocalorie" k2="4.542324452558e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#9:1]-[#6X4:2]-[#6X4:3]-[#9:4]" periodicity1="3" periodicity2="1" phase1="0.0 * degree" phase2="180.0 * degree" id="t6" k1="4.514973797636e-02 * mole**-1 * kilocalorie" k2="-2.764147429857e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#17:1]-[#6X4:2]-[#6X4:3]-[#17:4]" periodicity1="3" periodicity2="1" phase1="0.0 * degree" phase2="180.0 * degree" id="t7" k1="5.492792664943e-01 * mole**-1 * kilocalorie" k2="-1.342620249749e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#35:1]-[#6X4:2]-[#6X4:3]-[#35:4]" periodicity1="3" periodicity2="1" phase1="0.0 * degree" phase2="180.0 * degree" id="t8" k1="1.447827039888e+00 * mole**-1 * kilocalorie" k2="-6.756758704401e-02 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#1:1]-[#6X4:2]-[#6X4:3]-[#8X2:4]" periodicity1="3" periodicity2="1" phase1="0.0 * degree" phase2="0.0 * degree" id="t9" k1="1.056895905738e-01 * mole**-1 * kilocalorie" k2="3.720862668512e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#1:1]-[#6X4:2]-[#6X4:3]-[#9:4]" periodicity1="3" periodicity2="1" phase1="0.0 * degree" phase2="0.0 * degree" id="t10" k1="1.094283347167e-01 * mole**-1 * kilocalorie" k2="3.465431085887e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#1:1]-[#6X4:2]-[#6X4:3]-[#17:4]" periodicity1="3" periodicity2="1" phase1="0.0 * degree" phase2="0.0 * degree" id="t11" k1="1.266505449157e-01 * mole**-1 * kilocalorie" k2="4.858975621399e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#1:1]-[#6X4:2]-[#6X4:3]-[#35:4]" periodicity1="3" periodicity2="1" phase1="0.0 * degree" phase2="0.0 * degree" id="t12" k1="1.903833115962e-01 * mole**-1 * kilocalorie" k2="4.095778955773e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]-[#6X4:2]-[#6X4;r3:3]-[*:4]" periodicity1="1" phase1="0.0 * degree" id="t13" k1="1.814900119615e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#6X4:2]-[#6X4;r3:3]-[#6X4;r3:4]" periodicity1="3" phase1="0.0 * degree" id="t14" k1="4.963092809186e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#6X4;r3:2]-@[#6X4;r3:3]-[*:4]" periodicity1="2" phase1="0.0 * degree" id="t15" k1="-2.122370367065e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X4;r3:1]-[#6X4;r3:2]-[#6X4;r3:3]-[*:4]" periodicity1="2" periodicity2="1" phase1="0.0 * degree" phase2="0.0 * degree" id="t16" k1="-1.940314408387e+00 * mole**-1 * kilocalorie" k2="5.058564858165e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]~[#6X3:2]-[#6X4:3]-[*:4]" periodicity1="3" phase1="0.0 * degree" id="t17" k1="4.324431430224e-02 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#6X4:2]-[#6X3:3]=[*:4]" periodicity1="2" phase1="0.0 * degree" id="t18" k1="-2.892600287107e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#1:1]-[#6X4:2]-[#6X3:3]=[#8X1:4]" periodicity1="1" periodicity2="2" periodicity3="3" phase1="0.0 * degree" phase2="0.0 * degree" phase3="180.0 * degree" id="t19" k1="5.164703175346e-01 * mole**-1 * kilocalorie" k2="2.521331521307e-01 * mole**-1 * kilocalorie" k3="2.901121806624e-02 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]" periodicity1="3" periodicity2="1" phase1="180.0 * degree" phase2="0.0 * degree" id="t20" k1="3.096199327639e-01 * mole**-1 * kilocalorie" k2="-7.376264365365e-03 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#6X3:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]" periodicity1="3" periodicity2="2" phase1="0.0 * degree" phase2="180.0 * degree" id="t21" k1="-3.269651111060e-01 * mole**-1 * kilocalorie" k2="1.551299776586e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#7X3:1]-[#6X4:2]-[#6X3:3]-[#7X3:4]" periodicity1="1" periodicity2="2" phase1="180.0 * degree" phase2="180.0 * degree" id="t22" k1="-1.274436520997e-01 * mole**-1 * kilocalorie" k2="4.243342869397e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#6X4:1]-[#6X4:2]-[#6X3:3]-[#7X3:4]" periodicity1="4" periodicity2="2" phase1="0.0 * degree" phase2="0.0 * degree" id="t23" k1="-3.186111601827e-02 * mole**-1 * kilocalorie" k2="2.540880896248e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#16X2,#16X1-1,#16X3+1:1]-[#6X3:2]-[#6X4:3]-[#1:4]" periodicity1="2" periodicity2="1" phase1="0.0 * degree" phase2="180.0 * degree" id="t24" k1="-4.552473736852e-02 * mole**-1 * kilocalorie" k2="-2.563324145386e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#16X2,#16X1-1,#16X3+1:1]-[#6X3:2]-[#6X4:3]-[#7X4,#7X3:4]" periodicity1="4" periodicity2="3" periodicity3="2" periodicity4="2" periodicity5="1" phase1="0.0 * degree" phase2="0.0 * degree" phase3="0.0 * degree" phase4="270.0 * degree" phase5="90.0 * degree" id="t25" k1="7.084841275505e-02 * mole**-1 * kilocalorie" k2="2.407988127849e-02 * mole**-1 * kilocalorie" k3="-7.027185626463e-01 * mole**-1 * kilocalorie" k4="2.725139507511e-01 * mole**-1 * kilocalorie" k5="5.219294279869e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" idivf4="1.0" idivf5="1.0" parameterize="k4, k5, k2, k1, k3"/>
+		<Proper smirks="[#16X2,#16X1-1,#16X3+1:1]-[#6X3:2]-[#6X4:3]-[#7X3$(*-[#6X3,#6X2]):4]" periodicity1="4" periodicity2="3" periodicity3="2" periodicity4="2" periodicity5="1" periodicity6="1" phase1="270.0 * degree" phase2="0.0 * degree" phase3="180.0 * degree" phase4="270.0 * degree" phase5="270.0 * degree" phase6="0.0 * degree" id="t26" k1="4.258647502424e-01 * mole**-1 * kilocalorie" k2="4.236663722205e-01 * mole**-1 * kilocalorie" k3="6.909802196984e-02 * mole**-1 * kilocalorie" k4="7.936525067439e-02 * mole**-1 * kilocalorie" k5="1.131778007277e-01 * mole**-1 * kilocalorie" k6="5.114951895428e-02 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" idivf4="1.0" idivf5="1.0" idivf6="1.0" parameterize="k4, k5, k2, k1, k3, k6"/>
+		<Proper smirks="[*:1]-[#6X4;r3:2]-[#6X3:3]~[*:4]" periodicity1="1" phase1="0.0 * degree" id="t27" k1="9.614109148251e-02 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X4:1]-[#6X4;r3:2]-[#6X3:3]~[#6X3:4]" periodicity1="4" periodicity2="2" phase1="180.0 * degree" phase2="180.0 * degree" id="t28" k1="2.825071978812e-01 * mole**-1 * kilocalorie" k2="4.593845300393e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#1:1]-[#6X4;r3:2]-[#6X3:3]~[#6X3:4]" periodicity1="4" periodicity2="3" periodicity3="2" phase1="180.0 * degree" phase2="0.0 * degree" phase3="180.0 * degree" id="t29" k1="1.203960895597e-01 * mole**-1 * kilocalorie" k2="-9.502727864339e-02 * mole**-1 * kilocalorie" k3="1.360409180060e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#6X3:1]-[#6X4;r3:2]-[#6X3:3]-[#7X3:4]" periodicity1="2" periodicity2="1" periodicity3="3" phase1="0.0 * degree" phase2="180.0 * degree" phase3="180.0 * degree" id="t30" k1="1.816750949950e+00 * mole**-1 * kilocalorie" k2="4.064661279452e+00 * mole**-1 * kilocalorie" k3="2.106631237770e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#6X3:1]-[#6X4;r3:2]-[#6X3:3]=[#8X1:4]" periodicity1="2" periodicity2="1" periodicity3="3" phase1="180.0 * degree" phase2="180.0 * degree" phase3="180.0 * degree" id="t31" k1="1.513705835517e+00 * mole**-1 * kilocalorie" k2="-2.973134416850e-01 * mole**-1 * kilocalorie" k3="3.574773009934e-03 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#6X3:1]-[#6X4;r3:2]-[#6X3:3]~[#6X3:4]" periodicity1="2" phase1="180.0 * degree" id="t32" k1="3.802349241568e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#7X3:1]-[#6X4;r3:2]-[#6X3:3]~[#6X3:4]" periodicity1="4" periodicity2="2" phase1="180.0 * degree" phase2="180.0 * degree" id="t33" k1="2.180375801040e-01 * mole**-1 * kilocalorie" k2="1.766896645237e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3:3]~[#6X3:4]" periodicity1="4" periodicity2="3" periodicity3="2" phase1="180.0 * degree" phase2="0.0 * degree" phase3="180.0 * degree" id="t34" k1="2.461864000871e-01 * mole**-1 * kilocalorie" k2="-1.628399778110e+00 * mole**-1 * kilocalorie" k3="1.897961519887e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3;r6:3]:[#6X3;r6:4]" periodicity1="4" periodicity2="2" phase1="180.0 * degree" phase2="180.0 * degree" id="t35" k1="1.027384899967e-01 * mole**-1 * kilocalorie" k2="6.432058196091e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3;r5:3]-;@[#6X3;r5:4]" periodicity1="4" periodicity2="3" periodicity3="2" phase1="180.0 * degree" phase2="0.0 * degree" phase3="180.0 * degree" id="t36" k1="-4.909290154187e-02 * mole**-1 * kilocalorie" k2="6.180997036011e-01 * mole**-1 * kilocalorie" k3="1.400243115517e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3;r5:3]=;@[#6X3;r5:4]" periodicity1="1" phase1="180.0 * degree" id="t37" k1="4.192689893988e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3:3]-[#6X4:4]" periodicity1="1" phase1="0.0 * degree" id="t38" k1="1.054369355264e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3;r6:3]:[#7X2;r6:4]" periodicity1="2" periodicity2="1" periodicity3="3" phase1="180.0 * degree" phase2="180.0 * degree" phase3="0.0 * degree" id="t39" k1="2.417113450872e+00 * mole**-1 * kilocalorie" k2="-1.828640906396e-01 * mole**-1 * kilocalorie" k3="1.274382307455e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3:3]=[#7X2:4]" periodicity1="3" periodicity2="2" periodicity3="1" phase1="0.0 * degree" phase2="180.0 * degree" phase3="180.0 * degree" id="t40" k1="-9.762882552586e-01 * mole**-1 * kilocalorie" k2="1.405651371797e+00 * mole**-1 * kilocalorie" k3="-6.840747411919e-03 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3:3]-[#8X2:4]" periodicity1="4" periodicity2="2" phase1="180.0 * degree" phase2="180.0 * degree" id="t41" k1="-3.800007428656e-01 * mole**-1 * kilocalorie" k2="1.588353512860e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3:3]=[#8X1:4]" periodicity1="2" phase1="320.0 * degree" id="t42" k1="-9.216612791970e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#6X3:2]-[#6X3:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t43" k1="1.108762165400e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#6X3:2]:[#6X3:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t44" k1="3.643858472058e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-,:[#6X3:2]=[#6X3:3]-,:[*:4]" periodicity1="2" phase1="180.0 * degree" id="t45" k1="5.329362712562e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X4:1]-[#6X3:2]=[#6X3:3]-[#6X4:4]" periodicity1="2" periodicity2="1" phase1="180.0 * degree" phase2="180.0 * degree" id="t46" k1="5.505847175937e+00 * mole**-1 * kilocalorie" k2="4.709039095141e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]~[#6X3:2]-[#6X3$(*=[#8,#16,#7]):3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t47" k1="1.015992552942e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X3:1]=[#6X3:2]-[#6X3:3]=[#8X1:4]" periodicity1="2" periodicity2="3" phase1="180.0 * degree" phase2="0.0 * degree" id="t48" k1="2.583700154478e-01 * mole**-1 * kilocalorie" k2="4.763878714300e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]~[#7a:2]:[#6a:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t49" k1="3.720115675908e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#6X4:2]-[#7X4:3]-[*:4]" periodicity1="3" phase1="0.0 * degree" id="t50" k1="1.017036263861e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#6X4:2]-[#7X3:3]~[*:4]" periodicity1="3" phase1="0.0 * degree" id="t51" k1="2.084989907598e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#6X4:2]-[#7X3:3]-[#7X2:4]=[#6]" periodicity1="3" periodicity2="2" phase1="0.0 * degree" phase2="180.0 * degree" id="t52" k1="3.168526021615e-01 * mole**-1 * kilocalorie" k2="-3.944158269078e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#1:1]-[#6X4:2]-[#7X3:3]-[#7X2:4]=[#6]" periodicity1="3" periodicity2="2" phase1="0.0 * degree" phase2="180.0 * degree" id="t53" k1="3.691859019865e-01 * mole**-1 * kilocalorie" k2="-9.822557176548e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]-[#6X4:2]-[#7X3:3]-[#7X2:4]=[#7X2,#8X1]" periodicity1="3" periodicity2="2" phase1="0.0 * degree" phase2="180.0 * degree" id="t54" k1="-2.005746556308e-01 * mole**-1 * kilocalorie" k2="2.678276295199e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#1:1]-[#6X4:2]-[#7X3:3]-[#7X2:4]=[#7X2,#8X1]" periodicity1="3" periodicity2="2" phase1="0.0 * degree" phase2="180.0 * degree" id="t55" k1="2.711233810979e-02 * mole**-1 * kilocalorie" k2="3.072359225239e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]-[#6X4:2]-[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):3]-[*:4]" periodicity1="2" phase1="180.0 * degree" id="t56" k1="1.873038583077e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#1:1]-[#6X4:2]-[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):3]-[*:4]" periodicity1="2" phase1="180.0 * degree" id="t57" k1="2.353997106666e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X4:1]-[#6X4:2]-[#7X4,#7X3:3]-[#6X4:4]" periodicity1="3" periodicity2="2" phase1="0.0 * degree" phase2="180.0 * degree" id="t58" k1="6.653556559282e-02 * mole**-1 * kilocalorie" k2="2.002132414564e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#1:1]-[#7X4,#7X3:2]-[#6X4;r3:3]-[*:4]" periodicity1="1" phase1="0.0 * degree" id="t59" k1="-7.321959341948e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#1:1]-[#7X4,#7X3:2]-[#6X4;r3:3]-[#6X4;r3:4]" periodicity1="1" phase1="0.0 * degree" id="t60" k1="8.712320217107e-02 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[!#1:1]-[#7X4,#7X3:2]-[#6X4;r3:3]-[*:4]" periodicity1="3" phase1="0.0 * degree" id="t61" k1="5.774947092282e-02 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[!#1:1]-[#7X4,#7X3:2]-[#6X4;r3:3]-[#6X4;r3:4]" periodicity1="3" phase1="0.0 * degree" id="t62" k1="1.552538044880e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#7X4:2]-[#6X3:3]~[*:4]" periodicity1="1" phase1="0.0 * degree" id="t63" k1="1.741452013760e-02 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#6X4:2]-[#7X3$(*~[#6X3,#6X2]):3]~[*:4]" periodicity1="2" periodicity2="3" phase1="0.0 * degree" phase2="0.0 * degree" id="t64" k1="1.840521492289e-01 * mole**-1 * kilocalorie" k2="5.822374236874e-02 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]-[#6X4:2]-[#7X3$(*~[#8X1]):3]~[#8X1:4]" periodicity1="3" phase1="0.0 * degree" id="t65" k1="-4.995262987955e-03 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X3:1]-[#7X3:2]-[#6X4:3]-[#6X3:4]" periodicity1="2" periodicity2="1" phase1="180.0 * degree" phase2="0.0 * degree" id="t66" k1="-7.082692790489e-01 * mole**-1 * kilocalorie" k2="1.211116944484e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#6X4:1]-[#6X4:2]-[#7X3:3]-[#6X3:4]=[#8,#16,#7]" periodicity1="4" periodicity2="3" periodicity3="2" periodicity4="1" phase1="180.0 * degree" phase2="180.0 * degree" phase3="0.0 * degree" phase4="0.0 * degree" id="t67" k1="-1.109237155526e-01 * mole**-1 * kilocalorie" k2="-1.610536183174e-01 * mole**-1 * kilocalorie" k3="3.381374838584e-01 * mole**-1 * kilocalorie" k4="-2.339717310366e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" idivf4="1.0" parameterize="k4, k2, k3, k1"/>
+		<Proper smirks="[#8X2H0:1]-[#6X4:2]-[#7X3:3]-[#6X3:4]" periodicity1="2" periodicity2="1" phase1="0.0 * degree" phase2="0.0 * degree" id="t68" k1="1.026358239319e+00 * mole**-1 * kilocalorie" k2="1.599300979776e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#6X3:1]-[#7X3:2]-[#6X4;r3:3]-[#6X4;r3:4]" periodicity1="3" periodicity2="2" periodicity3="1" phase1="0.0 * degree" phase2="0.0 * degree" phase3="0.0 * degree" id="t69" k1="7.513779562856e-01 * mole**-1 * kilocalorie" k2="-9.959110956673e-01 * mole**-1 * kilocalorie" k3="-1.124916744228e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[*:1]~[#7X2:2]-[#6X4:3]-[*:4]" periodicity1="1" phase1="0.0 * degree" id="t70" k1="-1.169364094861e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X3:1]=[#7X2,#7X3+1:2]-[#6X4:3]-[#1:4]" periodicity1="1" phase1="0.0 * degree" id="t71" k1="-2.417995349602e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X3:1]=[#7X2,#7X3+1:2]-[#6X4:3]-[#6X3,#6X4:4]" periodicity1="1" phase1="0.0 * degree" id="t72" k1="-2.803743906746e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#7X3,#7X2-1:2]-[#6X3:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t73" k1="7.356455198531e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#7X3,#7X2-1:2]-!@[#6X3:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t74" k1="1.238669445261e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#7X3:2]-[#6X3$(*=[#8,#16,#7]):3]~[*:4]" periodicity1="2" periodicity2="1" phase1="180.0 * degree" phase2="0.0 * degree" id="t75" k1="2.044617106386e+00 * mole**-1 * kilocalorie" k2="1.781423063686e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#1:1]-[#7X3:2]-[#6X3:3]=[#8,#16,#7:4]" periodicity1="2" periodicity2="1" phase1="180.0 * degree" phase2="0.0 * degree" id="t76" k1="4.681544109579e-01 * mole**-1 * kilocalorie" k2="6.144566266198e-02 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]-[#7X3:2]-!@[#6X3:3](=[#8,#16,#7:4])-[#6,#1]" periodicity1="2" periodicity2="1" phase1="180.0 * degree" phase2="0.0 * degree" id="t77" k1="2.751734217375e+00 * mole**-1 * kilocalorie" k2="-1.112160435898e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#1:1]-[#7X3:2]-!@[#6X3:3](=[#8,#16,#7:4])-[#6,#1]" periodicity1="2" periodicity2="1" phase1="180.0 * degree" phase2="0.0 * degree" id="t78" k1="2.170657911134e+00 * mole**-1 * kilocalorie" k2="6.070525308109e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]-[#7X3:2]-!@[#6X3:3](=[#8,#16,#7:4])-[#7X3]" periodicity1="2" periodicity2="1" phase1="180.0 * degree" phase2="0.0 * degree" id="t79" k1="1.146177110953e+00 * mole**-1 * kilocalorie" k2="4.276208123285e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]-[#7X3;r5:2]-@[#6X3;r5:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t80" k1="1.555468726010e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#8X1:1]~[#7X3:2]~[#6X3:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t81" k1="8.380919280675e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]=[#7X2,#7X3+1:2]-[#6X3:3]-[*:4]" periodicity1="2" phase1="180.0 * degree" id="t82" k1="1.638641785841e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]=[#7X2,#7X3+1:2]-[#6X3:3]=,:[*:4]" periodicity1="2" phase1="180.0 * degree" id="t83" k1="1.542398621609e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#7X2,#7X3$(*~[#8X1]):2]:[#6X3:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t84" k1="2.530696070357e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X3:1]:[#7X2:2]:[#6X3:3]:[#6X3:4]" periodicity1="2" phase1="180.0 * degree" id="t85" k1="6.783027950400e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-,:[#6X3:2]=[#7X2:3]-[*:4]" periodicity1="2" phase1="180.0 * degree" id="t86" k1="7.375322220037e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#7X3+1:2]=,:[#6X3:3]-,:[*:4]" periodicity1="2" phase1="180.0 * degree" id="t87" k1="2.702008763751e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#16X4,#16X3+0:1]-[#7X2:2]=[#6X3:3]-[#7X3:4]" periodicity1="2" phase1="180.0 * degree" id="t88" k1="3.354597115274e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#16X4,#16X3+0:1]-[#7X2:2]=[#6X3:3]-[#16X2,#16X3+1:4]" periodicity1="2" phase1="180.0 * degree" id="t89" k1="2.518505774835e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#7X2:1]~[#7X2:2]-[#6X3:3]~[#6X3:4]" periodicity1="2" phase1="180.0 * degree" id="t90" k1="2.383823621120e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#7X2:1]~[#7X2:2]-[#6X4:3]-[#6X3:4]" periodicity1="2" phase1="0.0 * degree" id="t91" k1="9.061698531094e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#7X2:1]~[#7X2:2]-[#6X4:3]~[#1:4]" periodicity1="2" phase1="0.0 * degree" id="t92" k1="3.026273011780e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#6X4:2]-[#8X2:3]-[#1:4]" periodicity1="3" phase1="0.0 * degree" id="t93" k1="1.084117054279e+00 * mole**-1 * kilocalorie" idivf1="3.0" parameterize="k1"/>
+		<Proper smirks="[#6X4:1]-[#6X4:2]-[#8X2H1:3]-[#1:4]" periodicity1="3" periodicity2="1" phase1="0.0 * degree" phase2="0.0 * degree" id="t94" k1="3.305442308578e-01 * mole**-1 * kilocalorie" k2="2.116246687339e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]-[#6X4:2]-[#8X2H0:3]-[*:4]" periodicity1="3" phase1="0.0 * degree" id="t95" k1="2.445898313731e-01 * mole**-1 * kilocalorie" idivf1="3.0" parameterize="k1"/>
+		<Proper smirks="[#6X4:1]-[#6X4:2]-[#8X2H0:3]-[#6X4:4]" periodicity1="3" periodicity2="2" phase1="0.0 * degree" phase2="180.0 * degree" id="t96" k1="4.502690077297e-01 * mole**-1 * kilocalorie" k2="-5.772219078518e-02 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#6X4:1]-[#6X4:2]-[#8X2:3]-[#6X3:4]" periodicity1="3" periodicity2="1" phase1="0.0 * degree" phase2="180.0 * degree" id="t97" k1="7.413988476152e-02 * mole**-1 * kilocalorie" k2="5.953011432436e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#6X4:1]-[#8X2:2]-[#6X4:3]-[#8X2:4]" periodicity1="3" periodicity2="2" periodicity3="1" phase1="0.0 * degree" phase2="180.0 * degree" phase3="180.0 * degree" id="t98" k1="5.780999929848e-01 * mole**-1 * kilocalorie" k2="1.260659472772e-01 * mole**-1 * kilocalorie" k3="2.070464046141e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#6X4:1]-[#8X2:2]-[#6X4:3]-[#7X3:4]" periodicity1="3" periodicity2="2" phase1="0.0 * degree" phase2="0.0 * degree" id="t99" k1="8.466264690804e-01 * mole**-1 * kilocalorie" k2="6.556130042717e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#6X3:1]-[#8X2:2]-[#6X4;r3:3]-@[#6X4;r3:4]" periodicity1="1" phase1="0.0 * degree" id="t100" k1="-4.204010105219e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X3:1]-[#8X2:2]-[#6X4;r3:3]-[#1:4]" periodicity1="1" phase1="0.0 * degree" id="t101" k1="4.123238519858e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#1:1]-[#8X2:2]-[#6X4;r3:3]-[#1:4]" periodicity1="3" periodicity2="2" periodicity3="1" phase1="0.0 * degree" phase2="0.0 * degree" phase3="0.0 * degree" id="t102" k1="1.272883194988e+00 * mole**-1 * kilocalorie" k2="-3.255660000629e-01 * mole**-1 * kilocalorie" k3="4.521392975200e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#1:1]-[#8X2:2]-[#6X4;r3:3]-[#6X4:4]" periodicity1="3" periodicity2="2" periodicity3="1" phase1="0.0 * degree" phase2="0.0 * degree" phase3="0.0 * degree" id="t103" k1="1.194554991277e+00 * mole**-1 * kilocalorie" k2="-2.859757886326e-01 * mole**-1 * kilocalorie" k3="4.969003551523e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#1:1]-[#8X2:2]-[#6X4;r3:3]-[#6X4;r3:4]" periodicity1="3" periodicity2="2" periodicity3="1" phase1="0.0 * degree" phase2="0.0 * degree" phase3="0.0 * degree" id="t104" k1="-7.719516544177e-01 * mole**-1 * kilocalorie" k2="8.917906504442e-01 * mole**-1 * kilocalorie" k3="5.316591767791e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[*:1]~[#6X3:2]-[#8X2:3]-[*:4]" periodicity1="2" phase1="180.0 * degree" id="t105" k1="1.527915203348e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#6X3:2]-[#8X2:3]-[#1:4]" periodicity1="2" phase1="180.0 * degree" id="t106" k1="7.867398905434e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#6X3:2](=[#8,#16,#7])-[#8X2H0:3]-[*:4]" periodicity1="2" phase1="180.0 * degree" id="t107" k1="3.398767654657e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#6X3:2](=[#8,#16,#7])-[#8:3]-[#1:4]" periodicity1="2" phase1="180.0 * degree" id="t108" k1="2.772314751066e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#1:1]-[#8X2:2]-[#6X3:3]=[#8X1:4]" periodicity1="2" periodicity2="1" phase1="180.0 * degree" phase2="0.0 * degree" id="t109" k1="5.798694879316e+00 * mole**-1 * kilocalorie" k2="-2.878262737068e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#8,#16,#7:1]=[#6X3:2]-[#8X2H0:3]-[#6X4:4]" periodicity1="2" periodicity2="1" phase1="180.0 * degree" phase2="180.0 * degree" id="t110" k1="1.236822650933e+00 * mole**-1 * kilocalorie" k2="-5.592141656932e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]-[#8X2:2]@[#6X3:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t111" k1="1.294462062606e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#8X2+1:2]=[#6X3:3]-[*:4]" periodicity1="2" phase1="180.0 * degree" id="t112" k1="6.115659271846e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]=[#8X2+1:2]-[#6:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t113" k1="-2.985019435627e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#16:2]=,:[#6:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t114" k1="-1.660940981227e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#16X2,#16X3+1:2]-[#6:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t115" k1="5.091314406395e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#16X2,#16X3+1:2]-[#6:3]-[#1:4]" periodicity1="3" phase1="0.0 * degree" id="t116" k1="2.978190028327e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X3:1]-@[#16X2,#16X1-1,#16X3+1:2]-@[#6X3,#7X2;r5:3]=@[#6,#7;r5:4]" periodicity1="2" phase1="180.0 * degree" id="t117" k1="7.422739229335e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#16X4,#16X3!+1:2]-[#6X4:3]-[*:4]" periodicity1="3" phase1="0.0 * degree" id="t118" k1="1.138417301996e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X4:1]-[#16X4,#16X3+0:2]-[#6X4:3]-[#1:4]" periodicity1="1" phase1="0.0 * degree" id="t119" k1="-1.449920314621e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X4:1]-[#16X4,#16X3+0:2]-[#6X4:3]~[#6X4:4]" periodicity1="3" phase1="0.0 * degree" id="t120" k1="3.498700910011e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#16X4,#16X3+0:2]-[#6X3:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t121" k1="4.329316799318e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6:1]-[#16X4,#16X3+0:2]-[#6X3:3]~[*:4]" periodicity1="1" phase1="0.0 * degree" id="t122" k1="1.343174098929e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#15:2]-[#6:3]-[*:4]" periodicity1="1" phase1="0.0 * degree" id="t123" k1="-1.062793441813e+01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#15:2]-[#6X3:3]~[*:4]" periodicity1="1" phase1="0.0 * degree" id="t124" k1="1.035665812226e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#8:2]-[#8:3]-[*:4]" periodicity1="1" phase1="0.0 * degree" id="t125" k1="1.273983012676e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#8:2]-[#8H1:3]-[*:4]" periodicity1="2" phase1="0.0 * degree" id="t126" k1="4.008729527867e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#8X2:2]-[#7:3]~[*:4]" periodicity1="1" phase1="0.0 * degree" id="t127" k1="9.406935611612e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#8X2r5:2]-;@[#7X3r5:3]~[*:4]" periodicity1="1" phase1="0.0 * degree" id="t128" k1="0.8894364040494 * mole**-1 * kilocalorie" idivf1="1.0"/>
+		<Proper smirks="[*:1]-[#8X2r5:2]-;@[#7X2r5:3]~[*:4]" periodicity1="1" phase1="0.0 * degree" id="t129" k1="-1.531187714639e+01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#7X4,#7X3:2]-[#7X4,#7X3:3]~[*:4]" periodicity1="3" phase1="0.0 * degree" id="t130" k1="1.168797737992e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#1:1]-[#7X4,#7X3:2]-[#7X4,#7X3:3]-[#1:4]" periodicity1="3" periodicity2="2" periodicity3="1" phase1="0.0 * degree" phase2="0.0 * degree" phase3="0.0 * degree" id="t131" k1="-4.635727927905e-01 * mole**-1 * kilocalorie" k2="3.641973395558e-03 * mole**-1 * kilocalorie" k3="-1.509344729495e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#6X4:1]-[#7X4,#7X3:2]-[#7X4,#7X3:3]-[#1:4]" periodicity1="3" periodicity2="2" periodicity3="1" phase1="0.0 * degree" phase2="0.0 * degree" phase3="0.0 * degree" id="t132" k1="5.877237712259e-01 * mole**-1 * kilocalorie" k2="2.673802732728e-01 * mole**-1 * kilocalorie" k3="-4.612062895920e-02 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#6X4:1]-[#7X4,#7X3:2]-[#7X4,#7X3:3]-[#6X4:4]" periodicity1="3" periodicity2="2" periodicity3="1" phase1="0.0 * degree" phase2="0.0 * degree" phase3="0.0 * degree" id="t133" k1="1.325903530298e-01 * mole**-1 * kilocalorie" k2="1.380789908690e+00 * mole**-1 * kilocalorie" k3="1.713412250091e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[*:1]-[#7X4,#7X3:2]-[#7X3$(*~[#6X3,#6X2]):3]~[*:4]" periodicity1="1" phase1="0.0 * degree" id="t134" k1="-1.582533296913e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#7X3$(*-[#6X3,#6X2]):2]-[#7X3$(*-[#6X3,#6X2]):3]-[*:4]" periodicity1="1" phase1="0.0 * degree" id="t135" k1="1.532016046138e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#7X3$(*-[#6X3,#6X2])r5:2]-@[#7X3$(*-[#6X3,#6X2])r5:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t136" k1="-6.470969925397e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]@[#7X2:2]@[#7X2:3]@[#7X2,#6X3:4]" periodicity1="1" phase1="180.0 * degree" id="t137" k1="0.2324481901172 * mole**-1 * kilocalorie" idivf1="1.0"/>
+		<Proper smirks="[*:1]~[#7X2:2]-[#7X3:3]~[*:4]" periodicity1="3" periodicity2="2" phase1="0.0 * degree" phase2="180.0 * degree" id="t138" k1="-4.632113791695e-03 * mole**-1 * kilocalorie" k2="1.682616112785e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]~[#7X2:2]-[#7X4:3]~[*:4]" periodicity1="3" periodicity2="2" phase1="0.0 * degree" phase2="180.0 * degree" id="t138a" k1="-9.510851427019e-02 * mole**-1 * kilocalorie" k2="1.554435554256e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k1, k2"/>
+		<Proper smirks="[*:1]=[#7X2:2]-[#7X2:3]=[*:4]" periodicity1="2" phase1="180.0 * degree" id="t139" k1="2.608840847246e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#7X2:2]=,:[#7X2:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t140" k1="1.379003000854e+01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#7X3+1:2]=,:[#7X2:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t141" k1="5.515127547114e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#7x3:2]-[#7x3,#6x3:3]~[*:4]" periodicity1="1" phase1="0.0 * degree" id="t141a" k1="-9.402583884043e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#7x2:2]-[#7x3:3]~[*:4]" periodicity1="3" periodicity2="2" phase1="0.0 * degree" phase2="180.0 * degree" id="t141b" k1="1.986658044580e+00 * mole**-1 * kilocalorie" k2="-9.879346934749e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k1, k2"/>
+		<Proper smirks="[*:1]-[#16X2,#16X3+1:2]-[!#6:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t142" k1="-2.105625954872e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#16X4,#16X3+0:2]-[#7:3]~[*:4]" periodicity1="1" phase1="0.0 * degree" id="t143" k1="2.569531790173e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X4:1]-[#16X4,#16X3+0:2]-[#7X4,#7X3:3]-[#1:4]" periodicity1="1" phase1="0.0 * degree" id="t144" k1="6.289126620675e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X3:1]-[#16X4,#16X3+0:2]-[#7X4,#7X3:3]-[#1:4]" periodicity1="3" phase1="0.0 * degree" id="t145" k1="1.045491552744e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X4:1]-[#16X4,#16X3+0:2]-[#7X4,#7X3:3]-[#6X4:4]" periodicity1="1" periodicity2="3" phase1="0.0 * degree" phase2="0.0 * degree" id="t146" k1="2.670033064703e+00 * mole**-1 * kilocalorie" k2="5.946197891136e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#6X3:1]-[#16X4,#16X3+0:2]-[#7X4,#7X3:3]-[#6X4:4]" periodicity1="3" periodicity2="2" periodicity3="1" phase1="0.0 * degree" phase2="0.0 * degree" phase3="0.0 * degree" id="t147" k1="2.332304717662e-01 * mole**-1 * kilocalorie" k2="-5.595177839483e-01 * mole**-1 * kilocalorie" k3="1.984836510549e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#8X1:1]~[#16X4,#16X3+0:2]-[#7X4,#7X3:3]-[#1:4]" periodicity1="1" periodicity2="3" phase1="180.0 * degree" phase2="0.0 * degree" id="t148" k1="-1.219657425730e+00 * mole**-1 * kilocalorie" k2="2.489192089264e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#8X1:1]~[#16X4,#16X3+0:2]-[#7X4,#7X3:3]-[#6X4:4]" periodicity1="3" periodicity2="2" periodicity3="1" phase1="0.0 * degree" phase2="180.0 * degree" phase3="0.0 * degree" id="t149" k1="2.204989111614e-01 * mole**-1 * kilocalorie" k2="8.045650046769e-01 * mole**-1 * kilocalorie" k3="3.463645666906e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#6X3:1]-[#16X4,#16X3+0:2]-[#7X3:3]-[#6X3:4]" periodicity1="3" periodicity2="2" periodicity3="1" phase1="0.0 * degree" phase2="0.0 * degree" phase3="0.0 * degree" id="t150" k1="7.065197118970e-01 * mole**-1 * kilocalorie" k2="7.244560501800e-01 * mole**-1 * kilocalorie" k3="3.715784068910e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" parameterize="k2, k3, k1"/>
+		<Proper smirks="[#6X4:1]-[#16X4,#16X3+0:2]-[#7X3:3]-[#6X3:4]" periodicity1="3" periodicity2="2" phase1="90.0 * degree" phase2="0.0 * degree" id="t151" k1="-5.111240259004e-01 * mole**-1 * kilocalorie" k2="7.046830527797e-02 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#8X1:1]~[#16X4,#16X3+0:2]-[#7X3:3]-[#6X3:4]" periodicity1="1" phase1="0.0 * degree" id="t152" k1="2.622662402474e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#8X1:1]~[#16X4,#16X3+0:2]-[#7X3:3]-[#7X2:4]" periodicity1="1" phase1="0.0 * degree" id="t153" k1="1.518905037648e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#16X4,#16X3+0:2]=,:[#7X2:3]-,:[*:4]" periodicity1="1" phase1="0.0 * degree" id="t154" k1="4.545959542266e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#6X4:1]-[#16X4,#16X3+0:2]-[#7X2:3]~[#6X3:4]" periodicity1="6" periodicity2="5" periodicity3="4" periodicity4="3" periodicity5="2" periodicity6="1" phase1="0.0 * degree" phase2="0.0 * degree" phase3="0.0 * degree" phase4="0.0 * degree" phase5="180.0 * degree" phase6="0.0 * degree" id="t155" k1="1.712373670579e+00 * mole**-1 * kilocalorie" k2="-1.668865053507e+00 * mole**-1 * kilocalorie" k3="1.970254482840e+00 * mole**-1 * kilocalorie" k4="4.020198562298e+00 * mole**-1 * kilocalorie" k5="-2.028501113903e+00 * mole**-1 * kilocalorie" k6="5.533961142301e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" idivf4="1.0" idivf5="1.0" idivf6="1.0" parameterize="k4, k5, k2, k1, k3, k6"/>
+		<Proper smirks="[#8X1:1]~[#16X4,#16X3+0:2]-[#7X2:3]~[#6X3:4]" periodicity1="6" periodicity2="5" periodicity3="4" periodicity4="2" periodicity5="3" periodicity6="1" phase1="0.0 * degree" phase2="0.0 * degree" phase3="180.0 * degree" phase4="180.0 * degree" phase5="180.0 * degree" phase6="0.0 * degree" id="t156" k1="2.404028557087e-01 * mole**-1 * kilocalorie" k2="-3.394411166749e-01 * mole**-1 * kilocalorie" k3="-5.141026802112e-01 * mole**-1 * kilocalorie" k4="-8.727813632621e-01 * mole**-1 * kilocalorie" k5="1.542439207780e+00 * mole**-1 * kilocalorie" k6="3.981195980837e+00 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" idivf3="1.0" idivf4="1.0" idivf5="1.0" idivf6="1.0" parameterize="k4, k5, k2, k1, k3, k6"/>
+		<Proper smirks="[*:1]~[#16X4,#16X3+0:2]-[#8X2:3]-[*:4]" periodicity1="1" phase1="0.0 * degree" id="t157" k1="2.771580295436e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#16X2,#16X3+1:2]-[#16X2,#16X3+1:3]-[*:4]" periodicity1="2" periodicity2="3" phase1="0.0 * degree" phase2="0.0 * degree" id="t158" k1="3.782502154384e+00 * mole**-1 * kilocalorie" k2="7.144020725840e-02 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]-[#8X2:2]-[#15:3]~[*:4]" periodicity1="3" phase1="0.0 * degree" id="t159" k1="6.028925706364e-01 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[#8X2:1]-[#15:2]-[#8X2:3]-[#6X4:4]" periodicity1="3" periodicity2="2" phase1="0.0 * degree" phase2="0.0 * degree" id="t160" k1="-6.254554991189e-01 * mole**-1 * kilocalorie" k2="-6.809631161580e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[*:1]~[#7:2]-[#15:3]~[*:4]" periodicity1="2" phase1="180.0 * degree" id="t161" k1="1.597071993882e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[#7:2]-[#15:3]=[*:4]" periodicity1="2" periodicity2="3" phase1="180.0 * degree" phase2="0.0 * degree" id="t162" k1="2.282844759019e+00 * mole**-1 * kilocalorie" k2="2.625554824598e-01 * mole**-1 * kilocalorie" idivf1="1.0" idivf2="1.0" parameterize="k2, k1"/>
+		<Proper smirks="[#6X3:1]-[#7:2]-[#15:3]=[*:4]" periodicity1="1" phase1="0.0 * degree" id="t163" k1="-1.533782402261e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]~[#7:2]=[#15:3]~[*:4]" periodicity1="3" phase1="0.0 * degree" id="t164" k1="-1.200738168979e+00 * mole**-1 * kilocalorie" idivf1="1.0" parameterize="k1"/>
+		<Proper smirks="[*:1]-[*:2]#[*:3]-[*:4]" periodicity1="1" phase1="0.0 * degree" id="t165" k1="0.0 * mole**-1 * kilocalorie" idivf1="1.0"/>
+		<Proper smirks="[*:1]~[*:2]-[*:3]#[*:4]" periodicity1="1" phase1="0.0 * degree" id="t166" k1="0.0 * mole**-1 * kilocalorie" idivf1="1.0"/>
+		<Proper smirks="[*:1]~[*:2]=[#6,#7,#16,#15;X2:3]=[*:4]" periodicity1="1" phase1="0.0 * degree" id="t167" k1="0.0 * mole**-1 * kilocalorie" idivf1="1.0"/>
+	</ProperTorsions>
+        <ImproperTorsions version="0.3" potential="k*(1+cos(periodicity*theta-phase))" default_idivf="auto">
+            <Improper smirks="[*:1]~[#6X3:2](~[*:3])~[*:4]" periodicity1="2" phase1="180.0 * degree" k1="1.757840854388e+00 * mole**-1 * kilocalorie" parameterize="k1" id="i1"/>
+            <Improper smirks="[*:1]~[#6X3:2](~[#8X1:3])~[#8:4]" periodicity1="2" phase1="180.0 * degree" k1="1.043723102613e+01 * mole**-1 * kilocalorie" parameterize="k1" id="i2"/>
+            <Improper smirks="[*:1]~[#7X3$(*~[#15,#16](!-[*])):2](~[*:3])~[*:4]" periodicity1="2" phase1="180.0 * degree" k1="1.298802593686e+01 * mole**-1 * kilocalorie" parameterize="k1" id="i3"/>
+            <Improper smirks="[*:1]~[#7X3$(*~[#6X3]):2](~[*:3])~[*:4]" periodicity1="2" phase1="180.0 * degree" k1="1.110935672010e+00 * mole**-1 * kilocalorie" parameterize="k1" id="i4"/>
+            <Improper smirks="[*:1]~[#7X3$(*~[#7X2]):2](~[*:3])~[*:4]" periodicity1="2" phase1="180.0 * degree" k1="9.131186754030e-01 * mole**-1 * kilocalorie" parameterize="k1" id="i5"/>
+            <Improper smirks="[*:1]~[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):2](~[*:3])~[*:4]" periodicity1="2" phase1="180.0 * degree" k1="1.527465326594e+01 * mole**-1 * kilocalorie" parameterize="k1" id="i6"/>
+            <Improper smirks="[*:1]~[#6X3:2](=[#7X2,#7X3+1:3])~[#7:4]" periodicity1="2" phase1="180.0 * degree" k1="1.033345358712e+01 * mole**-1 * kilocalorie" parameterize="k1" id="i7"/>
+        </ImproperTorsions>
+	<vdW version="0.3" potential="Lennard-Jones-12-6" combining_rules="Lorentz-Berthelot" scale12="0.0" scale13="0.0" scale14="0.5" scale15="1.0" cutoff="9.0 * angstrom" switch_width="1.0 * angstrom" method="cutoff">
+		<Atom smirks="[#1:1]" epsilon="0.0157 * mole**-1 * kilocalorie" id="n1" rmin_half="0.6 * angstrom"/>
+		<Atom smirks="[#1:1]-[#6X4]" epsilon="0.01577948280971 * mole**-1 * kilocalorie" id="n2" rmin_half="1.48419980825 * angstrom"/>
+		<Atom smirks="[#1:1]-[#6X4]-[#7,#8,#9,#16,#17,#35]" epsilon="0.01640924602775 * mole**-1 * kilocalorie" id="n3" rmin_half="1.449786411317 * angstrom"/>
+		<Atom smirks="[#1:1]-[#6X4](-[#7,#8,#9,#16,#17,#35])-[#7,#8,#9,#16,#17,#35]" epsilon="0.0157 * mole**-1 * kilocalorie" id="n4" rmin_half="1.287 * angstrom"/>
+		<Atom smirks="[#1:1]-[#6X4](-[#7,#8,#9,#16,#17,#35])(-[#7,#8,#9,#16,#17,#35])-[#7,#8,#9,#16,#17,#35]" epsilon="0.0157 * mole**-1 * kilocalorie" id="n5" rmin_half="1.187 * angstrom"/>
+		<Atom smirks="[#1:1]-[#6X4]~[*+1,*+2]" epsilon="0.0157 * mole**-1 * kilocalorie" id="n6" rmin_half="1.1 * angstrom"/>
+		<Atom smirks="[#1:1]-[#6X3]" epsilon="0.01561134320353 * mole**-1 * kilocalorie" id="n7" rmin_half="1.443812569645 * angstrom"/>
+		<Atom smirks="[#1:1]-[#6X3]~[#7,#8,#9,#16,#17,#35]" epsilon="0.01310699839698 * mole**-1 * kilocalorie" id="n8" rmin_half="1.377051329051 * angstrom"/>
+		<Atom smirks="[#1:1]-[#6X3](~[#7,#8,#9,#16,#17,#35])~[#7,#8,#9,#16,#17,#35]" epsilon="0.01479744504464 * mole**-1 * kilocalorie" id="n9" rmin_half="1.370482808197 * angstrom"/>
+		<Atom smirks="[#1:1]-[#6X2]" epsilon="0.015 * mole**-1 * kilocalorie" id="n10" rmin_half="1.459 * angstrom"/>
+		<Atom smirks="[#1:1]-[#7]" epsilon="0.01409081474669 * mole**-1 * kilocalorie" id="n11" rmin_half="0.6192778454102 * angstrom"/>
+		<Atom smirks="[#1:1]-[#8]" epsilon="1.232599966667e-05 * mole**-1 * kilocalorie" id="n12" rmin_half="0.2999999999997 * angstrom"/>
+		<Atom smirks="[#1:1]-[#16]" epsilon="0.0157 * mole**-1 * kilocalorie" id="n13" rmin_half="0.6 * angstrom"/>
+		<Atom smirks="[#6:1]" epsilon="0.0868793154488 * mole**-1 * kilocalorie" id="n14" rmin_half="1.953447017081 * angstrom"/>
+		<Atom smirks="[#6X2:1]" epsilon="0.21 * mole**-1 * kilocalorie" id="n15" rmin_half="1.908 * angstrom"/>
+		<Atom smirks="[#6X4:1]" epsilon="0.1088406109251 * mole**-1 * kilocalorie" id="n16" rmin_half="1.896698071741 * angstrom"/>
+		<Atom smirks="[#8:1]" epsilon="0.2102061007896 * mole**-1 * kilocalorie" id="n17" rmin_half="1.706036917087 * angstrom"/>
+		<Atom smirks="[#8X2H0+0:1]" epsilon="0.1684651402602 * mole**-1 * kilocalorie" id="n18" rmin_half="1.697783613804 * angstrom"/>
+		<Atom smirks="[#8X2H1+0:1]" epsilon="0.2094735324129 * mole**-1 * kilocalorie" id="n19" rmin_half="1.682099169199 * angstrom"/>
+		<Atom smirks="[#7:1]" epsilon="0.1676915150424 * mole**-1 * kilocalorie" id="n20" rmin_half="1.799798315098 * angstrom"/>
+		<Atom smirks="[#16:1]" epsilon="0.25 * mole**-1 * kilocalorie" id="n21" rmin_half="2.0 * angstrom"/>
+		<Atom smirks="[#15:1]" epsilon="0.2 * mole**-1 * kilocalorie" id="n22" rmin_half="2.1 * angstrom"/>
+		<Atom smirks="[#9:1]" epsilon="0.061 * mole**-1 * kilocalorie" id="n23" rmin_half="1.75 * angstrom"/>
+		<Atom smirks="[#17:1]" epsilon="0.2656001046527 * mole**-1 * kilocalorie" id="n24" rmin_half="1.85628721824 * angstrom"/>
+		<Atom smirks="[#35:1]" epsilon="0.3218986365974 * mole**-1 * kilocalorie" id="n25" rmin_half="1.969806594135 * angstrom"/>
+		<Atom smirks="[#53:1]" epsilon="0.4 * mole**-1 * kilocalorie" id="n26" rmin_half="2.35 * angstrom"/>
+		<Atom smirks="[#3+1:1]" epsilon="0.0279896 * mole**-1 * kilocalorie" id="n27" rmin_half="1.025 * angstrom"/>
+		<Atom smirks="[#11+1:1]" epsilon="0.0874393 * mole**-1 * kilocalorie" id="n28" rmin_half="1.369 * angstrom"/>
+		<Atom smirks="[#19+1:1]" epsilon="0.1936829 * mole**-1 * kilocalorie" id="n29" rmin_half="1.705 * angstrom"/>
+		<Atom smirks="[#37+1:1]" epsilon="0.3278219 * mole**-1 * kilocalorie" id="n30" rmin_half="1.813 * angstrom"/>
+		<Atom smirks="[#55+1:1]" epsilon="0.4065394 * mole**-1 * kilocalorie" id="n31" rmin_half="1.976 * angstrom"/>
+		<Atom smirks="[#9X0-1:1]" epsilon="0.003364 * mole**-1 * kilocalorie" id="n32" rmin_half="2.303 * angstrom"/>
+		<Atom smirks="[#17X0-1:1]" epsilon="0.035591 * mole**-1 * kilocalorie" id="n33" rmin_half="2.513 * angstrom"/>
+		<Atom smirks="[#35X0-1:1]" epsilon="0.0586554 * mole**-1 * kilocalorie" id="n34" rmin_half="2.608 * angstrom"/>
+		<Atom smirks="[#53X0-1:1]" epsilon="0.0536816 * mole**-1 * kilocalorie" id="n35" rmin_half="2.86 * angstrom"/>
+		<Atom smirks="[#1]-[#8X2H2+0:1]-[#1]" epsilon="0.1521 * mole**-1 * kilocalorie" id="n-tip3p-O" sigma="3.1507 * angstrom"/>
+		<Atom smirks="[#1:1]-[#8X2H2+0]-[#1]" epsilon="0 * mole**-1 * kilocalorie" id="n-tip3p-H" sigma="1 * angstrom"/>
+	</vdW>
+	<Electrostatics version="0.3" scale12="0.0" scale13="0.0" scale14="0.8333333333" scale15="1.0" cutoff="9.0 * angstrom" switch_width="0.0 * angstrom" method="PME"/>
+	<LibraryCharges version="0.3">
+		<LibraryCharge smirks="[#3+1:1]" charge1="1.0 * elementary_charge" name="Li+"/>
+		<LibraryCharge smirks="[#11+1:1]" charge1="1.0 * elementary_charge" name="Na+"/>
+		<LibraryCharge smirks="[#19+1:1]" charge1="1.0 * elementary_charge" name="K+"/>
+		<LibraryCharge smirks="[#37+1:1]" charge1="1.0 * elementary_charge" name="Rb+"/>
+		<LibraryCharge smirks="[#55+1:1]" charge1="1.0 * elementary_charge" name="Cs+"/>
+		<LibraryCharge smirks="[#9X0-1:1]" charge1="-1.0 * elementary_charge" name="F-"/>
+		<LibraryCharge smirks="[#17X0-1:1]" charge1="-1.0 * elementary_charge" name="Cl-"/>
+		<LibraryCharge smirks="[#35X0-1:1]" charge1="-1.0 * elementary_charge" name="Br-"/>
+		<LibraryCharge smirks="[#53X0-1:1]" charge1="-1.0 * elementary_charge" name="I-"/>
+		<LibraryCharge smirks="[#1]-[#8X2H2+0:1]-[#1]" charge1="-0.834 * elementary_charge" id="q-tip3p-O"/>
+		<LibraryCharge smirks="[#1:1]-[#8X2H2+0]-[#1]" charge1="0.417 * elementary_charge" id="q-tip3p-H"/>
+	</LibraryCharges>
+	<ToolkitAM1BCC version="0.3"/>
+</SMIRNOFF>
