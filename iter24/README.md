@@ -20,6 +20,7 @@ Includes the following improvements over Sage
 
 Fitting wise the following options are chosen
 - Larger priors on torsions to allow more variance to adjust to the MSM starting point
+```
    priors
       Bonds/Bond/k :  100.0
       Bonds/Bond/length :  0.1
@@ -28,17 +29,18 @@ Fitting wise the following options are chosen
       ProperTorsions/Proper/k :  15.0
       ImproperTorsions/Improper/k : 15.0
    /priors
-   
+```   
 - Change in weights on opt-geo-targets from 0.1 to 0.01 to be on the same scale as torsion targets after adding the Dihedral ICs to the objective function contribution
 
 - Opt_geo_options - the weights for each internal coordinate (or the variance we can tolerate)
+```
     $global
        bond_denom 0.05
        angle_denom 8.0
        dihedral_denom 15.0
        improper_denom 15.0
     $end
-
+```
 - Energy thresholds for torsion profile targets remain the same as before, a hard cutoff at 5 kcal/mol, and heavy weight to < 1 kcal/mol. 
 
 - MSM starting points are obtained from Josh Horton's work: https://github.com/jthorton/MSM_QCArchive
