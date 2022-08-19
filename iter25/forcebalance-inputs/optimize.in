@@ -13082,7 +13082,7 @@ $end
 
 $target
 name opt-geo-batch-0
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13092,7 +13092,7 @@ $end
 
 $target
 name opt-geo-batch-1
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13102,7 +13102,7 @@ $end
 
 $target
 name opt-geo-batch-2
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13112,7 +13112,7 @@ $end
 
 $target
 name opt-geo-batch-3
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13122,7 +13122,7 @@ $end
 
 $target
 name opt-geo-batch-4
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13132,7 +13132,7 @@ $end
 
 $target
 name opt-geo-batch-5
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13142,7 +13142,7 @@ $end
 
 $target
 name opt-geo-batch-6
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13152,7 +13152,7 @@ $end
 
 $target
 name opt-geo-batch-7
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13162,7 +13162,7 @@ $end
 
 $target
 name opt-geo-batch-8
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13172,7 +13172,7 @@ $end
 
 $target
 name opt-geo-batch-9
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13182,7 +13182,7 @@ $end
 
 $target
 name opt-geo-batch-10
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13192,7 +13192,7 @@ $end
 
 $target
 name opt-geo-batch-11
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13202,7 +13202,7 @@ $end
 
 $target
 name opt-geo-batch-12
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13212,7 +13212,7 @@ $end
 
 $target
 name opt-geo-batch-13
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13222,7 +13222,7 @@ $end
 
 $target
 name opt-geo-batch-14
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13232,7 +13232,7 @@ $end
 
 $target
 name opt-geo-batch-15
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13242,7 +13242,7 @@ $end
 
 $target
 name opt-geo-batch-16
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13252,7 +13252,7 @@ $end
 
 $target
 name opt-geo-batch-17
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13262,7 +13262,7 @@ $end
 
 $target
 name opt-geo-batch-18
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13272,7 +13272,7 @@ $end
 
 $target
 name opt-geo-batch-19
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13282,7 +13282,7 @@ $end
 
 $target
 name opt-geo-batch-20
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13292,7 +13292,7 @@ $end
 
 $target
 name opt-geo-batch-21
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13302,7 +13302,7 @@ $end
 
 $target
 name opt-geo-batch-22
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13312,7 +13312,7 @@ $end
 
 $target
 name opt-geo-batch-23
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13322,7 +13322,7 @@ $end
 
 $target
 name opt-geo-batch-24
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13332,7 +13332,7 @@ $end
 
 $target
 name opt-geo-batch-25
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13342,7 +13342,7 @@ $end
 
 $target
 name opt-geo-batch-26
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13352,7 +13352,7 @@ $end
 
 $target
 name opt-geo-batch-27
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13362,7 +13362,7 @@ $end
 
 $target
 name opt-geo-batch-28
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13372,7 +13372,7 @@ $end
 
 $target
 name opt-geo-batch-29
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13382,7 +13382,7 @@ $end
 
 $target
 name opt-geo-batch-30
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13392,7 +13392,7 @@ $end
 
 $target
 name opt-geo-batch-31
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13402,7 +13402,7 @@ $end
 
 $target
 name opt-geo-batch-32
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13412,7 +13412,7 @@ $end
 
 $target
 name opt-geo-batch-33
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13422,7 +13422,7 @@ $end
 
 $target
 name opt-geo-batch-34
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13432,7 +13432,7 @@ $end
 
 $target
 name opt-geo-batch-35
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13442,7 +13442,7 @@ $end
 
 $target
 name opt-geo-batch-36
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13452,7 +13452,7 @@ $end
 
 $target
 name opt-geo-batch-37
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13462,7 +13462,7 @@ $end
 
 $target
 name opt-geo-batch-38
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13472,7 +13472,7 @@ $end
 
 $target
 name opt-geo-batch-39
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13482,7 +13482,7 @@ $end
 
 $target
 name opt-geo-batch-40
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13492,7 +13492,7 @@ $end
 
 $target
 name opt-geo-batch-41
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13502,7 +13502,7 @@ $end
 
 $target
 name opt-geo-batch-42
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13512,7 +13512,7 @@ $end
 
 $target
 name opt-geo-batch-43
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13522,7 +13522,7 @@ $end
 
 $target
 name opt-geo-batch-44
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13532,7 +13532,7 @@ $end
 
 $target
 name opt-geo-batch-45
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13542,7 +13542,7 @@ $end
 
 $target
 name opt-geo-batch-46
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13552,7 +13552,7 @@ $end
 
 $target
 name opt-geo-batch-47
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13562,7 +13562,7 @@ $end
 
 $target
 name opt-geo-batch-48
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13572,7 +13572,7 @@ $end
 
 $target
 name opt-geo-batch-49
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13582,7 +13582,7 @@ $end
 
 $target
 name opt-geo-batch-50
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13592,7 +13592,7 @@ $end
 
 $target
 name opt-geo-batch-51
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13602,7 +13602,7 @@ $end
 
 $target
 name opt-geo-batch-52
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13612,7 +13612,7 @@ $end
 
 $target
 name opt-geo-batch-53
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13622,7 +13622,7 @@ $end
 
 $target
 name opt-geo-batch-54
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13632,7 +13632,7 @@ $end
 
 $target
 name opt-geo-batch-55
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13642,7 +13642,7 @@ $end
 
 $target
 name opt-geo-batch-56
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13652,7 +13652,7 @@ $end
 
 $target
 name opt-geo-batch-57
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13662,7 +13662,7 @@ $end
 
 $target
 name opt-geo-batch-58
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13672,7 +13672,7 @@ $end
 
 $target
 name opt-geo-batch-59
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13682,7 +13682,7 @@ $end
 
 $target
 name opt-geo-batch-60
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13692,7 +13692,7 @@ $end
 
 $target
 name opt-geo-batch-61
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13702,7 +13702,7 @@ $end
 
 $target
 name opt-geo-batch-62
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13712,7 +13712,7 @@ $end
 
 $target
 name opt-geo-batch-63
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13722,7 +13722,7 @@ $end
 
 $target
 name opt-geo-batch-64
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13732,7 +13732,7 @@ $end
 
 $target
 name opt-geo-batch-65
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13742,7 +13742,7 @@ $end
 
 $target
 name opt-geo-batch-66
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13752,7 +13752,7 @@ $end
 
 $target
 name opt-geo-batch-67
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13762,7 +13762,7 @@ $end
 
 $target
 name opt-geo-batch-68
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13772,7 +13772,7 @@ $end
 
 $target
 name opt-geo-batch-69
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13782,7 +13782,7 @@ $end
 
 $target
 name opt-geo-batch-70
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13792,7 +13792,7 @@ $end
 
 $target
 name opt-geo-batch-71
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13802,7 +13802,7 @@ $end
 
 $target
 name opt-geo-batch-72
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13812,7 +13812,7 @@ $end
 
 $target
 name opt-geo-batch-73
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13822,7 +13822,7 @@ $end
 
 $target
 name opt-geo-batch-74
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13832,7 +13832,7 @@ $end
 
 $target
 name opt-geo-batch-75
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13842,7 +13842,7 @@ $end
 
 $target
 name opt-geo-batch-76
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13852,7 +13852,7 @@ $end
 
 $target
 name opt-geo-batch-77
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13862,7 +13862,7 @@ $end
 
 $target
 name opt-geo-batch-78
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13872,7 +13872,7 @@ $end
 
 $target
 name opt-geo-batch-79
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13882,7 +13882,7 @@ $end
 
 $target
 name opt-geo-batch-80
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13892,7 +13892,7 @@ $end
 
 $target
 name opt-geo-batch-81
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13902,7 +13902,7 @@ $end
 
 $target
 name opt-geo-batch-82
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13912,7 +13912,7 @@ $end
 
 $target
 name opt-geo-batch-83
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13922,7 +13922,7 @@ $end
 
 $target
 name opt-geo-batch-84
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13932,7 +13932,7 @@ $end
 
 $target
 name opt-geo-batch-85
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13942,7 +13942,7 @@ $end
 
 $target
 name opt-geo-batch-86
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13952,7 +13952,7 @@ $end
 
 $target
 name opt-geo-batch-87
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13962,7 +13962,7 @@ $end
 
 $target
 name opt-geo-batch-88
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13972,7 +13972,7 @@ $end
 
 $target
 name opt-geo-batch-89
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13982,7 +13982,7 @@ $end
 
 $target
 name opt-geo-batch-90
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -13992,7 +13992,7 @@ $end
 
 $target
 name opt-geo-batch-91
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14002,7 +14002,7 @@ $end
 
 $target
 name opt-geo-batch-92
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14012,7 +14012,7 @@ $end
 
 $target
 name opt-geo-batch-93
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14022,7 +14022,7 @@ $end
 
 $target
 name opt-geo-batch-94
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14032,7 +14032,7 @@ $end
 
 $target
 name opt-geo-batch-95
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14042,7 +14042,7 @@ $end
 
 $target
 name opt-geo-batch-96
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14052,7 +14052,7 @@ $end
 
 $target
 name opt-geo-batch-97
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14062,7 +14062,7 @@ $end
 
 $target
 name opt-geo-batch-98
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14072,7 +14072,7 @@ $end
 
 $target
 name opt-geo-batch-99
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14082,7 +14082,7 @@ $end
 
 $target
 name opt-geo-batch-100
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14092,7 +14092,7 @@ $end
 
 $target
 name opt-geo-batch-101
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14102,7 +14102,7 @@ $end
 
 $target
 name opt-geo-batch-102
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14112,7 +14112,7 @@ $end
 
 $target
 name opt-geo-batch-103
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14122,7 +14122,7 @@ $end
 
 $target
 name opt-geo-batch-104
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14132,7 +14132,7 @@ $end
 
 $target
 name opt-geo-batch-105
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14142,7 +14142,7 @@ $end
 
 $target
 name opt-geo-batch-106
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14152,7 +14152,7 @@ $end
 
 $target
 name opt-geo-batch-107
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14162,7 +14162,7 @@ $end
 
 $target
 name opt-geo-batch-108
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14172,7 +14172,7 @@ $end
 
 $target
 name opt-geo-batch-109
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14182,7 +14182,7 @@ $end
 
 $target
 name opt-geo-batch-110
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14192,7 +14192,7 @@ $end
 
 $target
 name opt-geo-batch-111
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14202,7 +14202,7 @@ $end
 
 $target
 name opt-geo-batch-112
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14212,7 +14212,7 @@ $end
 
 $target
 name opt-geo-batch-113
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14222,7 +14222,7 @@ $end
 
 $target
 name opt-geo-batch-114
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14232,7 +14232,7 @@ $end
 
 $target
 name opt-geo-batch-115
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14242,7 +14242,7 @@ $end
 
 $target
 name opt-geo-batch-116
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14252,7 +14252,7 @@ $end
 
 $target
 name opt-geo-batch-117
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14262,7 +14262,7 @@ $end
 
 $target
 name opt-geo-batch-118
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14272,7 +14272,7 @@ $end
 
 $target
 name opt-geo-batch-119
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14282,7 +14282,7 @@ $end
 
 $target
 name opt-geo-batch-120
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14292,7 +14292,7 @@ $end
 
 $target
 name opt-geo-batch-121
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14302,7 +14302,7 @@ $end
 
 $target
 name opt-geo-batch-122
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14312,7 +14312,7 @@ $end
 
 $target
 name opt-geo-batch-123
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14322,7 +14322,7 @@ $end
 
 $target
 name opt-geo-batch-124
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14332,7 +14332,7 @@ $end
 
 $target
 name opt-geo-batch-125
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14342,7 +14342,7 @@ $end
 
 $target
 name opt-geo-batch-126
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14352,7 +14352,7 @@ $end
 
 $target
 name opt-geo-batch-127
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14362,7 +14362,7 @@ $end
 
 $target
 name opt-geo-batch-128
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14372,7 +14372,7 @@ $end
 
 $target
 name opt-geo-batch-129
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14382,7 +14382,7 @@ $end
 
 $target
 name opt-geo-batch-130
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14392,7 +14392,7 @@ $end
 
 $target
 name opt-geo-batch-131
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14402,7 +14402,7 @@ $end
 
 $target
 name opt-geo-batch-132
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14412,7 +14412,7 @@ $end
 
 $target
 name opt-geo-batch-133
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14422,7 +14422,7 @@ $end
 
 $target
 name opt-geo-batch-134
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14432,7 +14432,7 @@ $end
 
 $target
 name opt-geo-batch-135
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14442,7 +14442,7 @@ $end
 
 $target
 name opt-geo-batch-136
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14452,7 +14452,7 @@ $end
 
 $target
 name opt-geo-batch-137
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
@@ -14462,7 +14462,7 @@ $end
 
 $target
 name opt-geo-batch-138
-weight 0.1
+weight 0.01
 
 type OptGeoTarget_SMIRNOFF
 
