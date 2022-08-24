@@ -268,7 +268,7 @@ def draw_box_plot(
 
     seaborn.catplot(data=plot_frame, x="method", y=metric, kind="box", dodge=False)
 
-    pyplot.xticks(rotation=45)
+    pyplot.xticks(rotation=45, ha='right', rotation_mode='anchor')
 
     if y_range is not None:
         pyplot.ylim(y_range)
@@ -308,10 +308,15 @@ def draw_plots(energies, rmsds, tfds, method_labels, output_directory):
     )
 
     for key, values in rmsds.items():
+        metric = fr"{key} ($\mathrm{{\AA}}$)"
+        if key in ["Angle RMSD", "Dihedral RMSD", "Improper RMSD"]:
+            values = [it*180/numpy.pi for it in values]
+            metric = fr"{key} ($\mathrm{{\degrees}}$)"
+
         draw_box_plot(
             values,
             method_labels,
-            metric=fr"{key} ($\mathrm{{\AA}}$)",
+            metric=metric,
             y_range=(0, 3) if key == "RMSD" else None,
             output_path=os.path.join(
                 output_directory, f"box-{key.lower().replace(' ', '_')}.png"
@@ -320,7 +325,7 @@ def draw_plots(energies, rmsds, tfds, method_labels, output_directory):
         draw_step_plot(
             values,
             method_labels,
-            metric=fr"{key} ($\mathrm{{\AA}}$)",
+            metric=metric,
             x_range=(0, 3) if key == "RMSD" else None,
             output_path=os.path.join(
                 output_directory, f"step-{key.lower().replace(' ', '_')}.png"
