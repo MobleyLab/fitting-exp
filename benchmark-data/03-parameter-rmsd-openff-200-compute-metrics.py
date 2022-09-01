@@ -14,7 +14,8 @@ from geometric.internal import (
     PrimitiveInternalCoordinates,
 )
 from geometric.molecule import Molecule as GeometricMolecule
-from openff.toolkit.topology import Molecule
+from openff.toolkit.topology import Molecule, Topology
+from openff.toolkit.typing.engines.smirnoff import ForceField
 from rdkit.Chem import TorsionFingerprints
 from simtk import unit
 
@@ -22,6 +23,7 @@ from simtk import unit
 RMSD_AUTOMORPH = True  # take into acct symmetry related transformations
 RMSD_HEAVY_ONLY = False  # do consider hydrogen atoms for automorphisms
 RMSD_OVERLAY = True  # find the lowest possible RMSD
+
 
 def compute_rmsd(ref, tar, v_periodic=None):
     """
@@ -39,11 +41,12 @@ def compute_rmsd(ref, tar, v_periodic=None):
     rmsd = np.sqrt(np.sum(diff**2) / n)
     return rmsd
 
+
 def periodic_diff(a, b, v_periodic):
     ''' convenient function for computing the minimum difference in periodic coordinates
-    Code adapted from FORCEBALANCE
-    Source: https://github.com/leeping/forcebalance/blob/master/src/opt_geo_target.py
-
+      Code adapted from FORCEBALANCE        
+      Source: https://github.com/leeping/forcebalance/blob/master/src/opt_geo_target.py
+                                                                                           
     Parameters
     ----------
     a: np.ndarray or float
@@ -73,6 +76,44 @@ def periodic_diff(a, b, v_periodic):
     return (a - b + h) % v_periodic - h
 
 
+def get_assigned_params_ic_list(molecule, forcefield):
+    """
+    for a molecule and specific dihedral check the assigned torsion parameter
+    Parameters
+    ----------
+    molecule: openforcefield molecule object
+    ff: ForceField offxml file
+    dihedrals: list of atom indices in the dihedral
+
+    Returns
+    -------
+    parameter.id: str of the torsion parameter associated with the dihedral
+    """
+    if isinstance(forcefield, str):
+        forcefield = ForceField(forcefield)
+    topology = Topology.from_molecules([molecule])
+    # Run the molecule labeling
+    molecule_force_list = forcefield.label_molecules(topology)
+    
+    ic_bonds, ic_angles, ic_dihedrals, ic_impropers = [], [], [], []
+    for mol_idx, mol_forces in enumerate(molecule_force_list):
+        for force_tag, force_dict in mol_forces.items():
+            if force_tag == "Bonds":
+                for (atom_indices, parameter) in force_dict.items():
+                    ic_bonds.append([parameter.id, Distance(atom_indices[0], atom_indices[1])])
+            elif force_tag == "Angles":
+                for (atom_indices, parameter) in force_dict.items():
+                    ic_angles.append([parameter.id, Angle(atom_indices[0], atom_indices[1], atom_indices[2])])
+            elif force_tag == "ProperTorsions":
+                for (atom_indices, parameter) in force_dict.items():
+                    ic_dihedrals.append([parameter.id, Dihedral(atom_indices[0], atom_indices[1], atom_indices[2],
+                                              atom_indices[3])])
+            elif force_tag == "ImproperTorsions":
+                for (atom_indices, parameter) in force_dict.items():
+                    ic_impropers.append([parameter.id, OutOfPlane(atom_indices[1], atom_indices[0], atom_indices[2],
+                                                   atom_indices[3])])
+    return ic_bonds, ic_angles, ic_dihedrals, ic_impropers
+
 def _compute_internal_coordinate_rmsd(
     molecule: Molecule,
     qm_conformer: unit.Quantity,
@@ -100,6 +141,10 @@ def _compute_internal_coordinate_rmsd(
         "Dihedral": Dihedral,
         "Improper": OutOfPlane,
     }
+    # Get the assigned improper and built a 1-indexed dictionary mapping indices to parameter
+    forcefield = ForceField('openff_unconstrained-2.0.0.offxml') #ForceField(label+'.offxml')
+    ic_bonds, ic_angles, ic_dihedrals, ic_impropers = get_assigned_params_ic_list(molecule, forcefield)
+    
 
     internal_coordinates = {
         label: [
@@ -112,8 +157,42 @@ def _compute_internal_coordinate_rmsd(
         ]
         for label, internal_coordinate_class in internal_coordinate_types.items()
     }
+    
+    # add angle, improper, dihedral info
+    angles_params_values = []
+    angle_diffs = []
+    for item in ic_angles:
+        qmval = item[1].value(qm_conformer) * 180/np.pi
+        mmval = item[1].value(mm_conformer) * 180/np.pi
+        mm_minus_qm = periodic_diff(mmval, qmval, 360)
+        angle_diffs.append(mm_minus_qm)
+        angles_params_values.append([item[0], [item[1].a, item[1].b, item[1].c], qmval, mmval, mm_minus_qm])
+
+    impropers_params_values = []
+    improper_diffs = []
+    for item in ic_impropers:
+        qmval = item[1].value(qm_conformer) * 180/np.pi
+        mmval = item[1].value(mm_conformer) * 180/np.pi
+        mm_minus_qm = periodic_diff(mmval, qmval, 360)
+        improper_diffs.append(mm_minus_qm)
+        impropers_params_values.append([item[0], [item[1].b, item[1].a, item[1].c, item[1].d], qmval, mmval, mm_minus_qm])
+
+    dihedrals_params_values = []
+    dihedral_diffs = []
+    for item in ic_dihedrals:
+        qmval = item[1].value(qm_conformer) * 180/np.pi
+        mmval = item[1].value(mm_conformer) * 180/np.pi
+        mm_minus_qm = periodic_diff(mmval, qmval, 360)
+        dihedral_diffs.append(mm_minus_qm)
+        dihedrals_params_values.append([item[0], [item[1].a, item[1].b, item[1].c, item[1].d], qmval, mmval, mm_minus_qm])
+
+    angle_diffs_rmsd = numpy.sqrt(numpy.mean([ad * ad for ad in angle_diffs]))
+    improper_diffs_rmsd = numpy.sqrt(numpy.mean([ad * ad for ad in improper_diffs]))
+    dihedral_diffs_rmsd = numpy.sqrt(numpy.mean([ad * ad for ad in dihedral_diffs]))
 
     internal_coordinate_rmsd = {}
+    
+    improper_delta = []
 
     for ic_type, ic_values in internal_coordinates.items():
 
@@ -130,7 +209,6 @@ def _compute_internal_coordinate_rmsd(
             rmsd = compute_rmsd(qm_values*180/numpy.pi, mm_values*180/numpy.pi, 360)
         else:
             rmsd = compute_rmsd(qm_values, mm_values)
-
         internal_coordinate_rmsd[ic_type] = float(rmsd)
 
     fb_objective = 0.0
@@ -144,7 +222,7 @@ def _compute_internal_coordinate_rmsd(
         elif key == "Improper":
             fb_objective += (1/20.0) * internal_coordinate_rmsd["Improper"]
 
-    return internal_coordinate_rmsd, fb_objective
+    return internal_coordinate_rmsd, angles_params_values, impropers_params_values, dihedrals_params_values, angle_diffs_rmsd, improper_diffs_rmsd, dihedral_diffs_rmsd, fb_objective
 
 
 def _compute_metrics(
@@ -180,7 +258,7 @@ def _compute_metrics(
 
             smiles = oechem.OEGetSDData(oe_qm_conformer, "SMILES QCArchive")
             record_id = oechem.OEGetSDData(oe_qm_conformer, record_id_tag)
-
+            
             assert (
                 oechem.OEGetSDData(oe_mm_conformer, record_id_tag) == record_id
             ), f"conformer mismatch {oe_qm_conformer.GetTitle()}"
@@ -203,8 +281,8 @@ def _compute_metrics(
                 oechem.OEMol(oe_mm_conformer), allow_undefined_stereo=True
             )
 
-            internal_coordinate_rmsds, fb_objective = _compute_internal_coordinate_rmsd(
-                qm_molecule, qm_molecule.conformers[0], mm_molecule.conformers[0]
+            internal_coordinate_rmsds, angles_params_values, impropers_params_values, dihedrals_params_values, angle_diffs_rmsd, improper_diffs_rmsd, dihedral_diffs_rmsd, fb_objective = _compute_internal_coordinate_rmsd(
+                qm_molecule, qm_molecule.conformers[0], mm_molecule.conformers[0],
             )
 
             rd_qm_molecule = qm_molecule.to_rdkit()
@@ -227,6 +305,8 @@ def _compute_metrics(
             conformer_metrics.append(
                 {
                     "SMILES": smiles,
+                    "mapped_smiles": qm_molecule.to_smiles(mapped=True), 
+                    "mol_title": oe_qm_conformer.GetTitle(),
                     "Conformer Idx": conformer_index,
                     "QM Energy": qm_energy,
                     "MM Energy": mm_energy,
@@ -238,6 +318,12 @@ def _compute_metrics(
                     "TDF": tfd,
                     "FB OBJECTIVE" : fb_objective,
                     "Record ID": record_id,
+                    "angles_params_values": angles_params_values, 
+                    "impropers_params_values": impropers_params_values, 
+                    "dihedrals_params_values": dihedrals_params_values,
+                    "angle_diffs_rmsd": angle_diffs_rmsd, 
+                    "improper_diffs_rmsd": improper_diffs_rmsd, 
+                    "dihedral_diffs_rmsd": dihedral_diffs_rmsd
                 }
             )
 
