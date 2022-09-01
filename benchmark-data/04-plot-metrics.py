@@ -150,7 +150,7 @@ def draw_step_plot(
         lw=1.25,
         facet_kws={"legend_out": False},
         )
-    #pyplot.setp(plot.ax.lines[4], linewidth=2.75)
+    pyplot.setp(plot.ax.lines[4], linewidth=2.75)
 
     for i, method in enumerate(method_labels):
 
@@ -310,7 +310,6 @@ def draw_plots(energies, rmsds, tfds, method_labels, output_directory):
     for key, values in rmsds.items():
         metric = fr"{key} ($\mathrm{{\AA}}$)"
         if key in ["Angle RMSD", "Dihedral RMSD", "Improper RMSD"]:
-            values = [it*180/numpy.pi for it in values]
             metric = fr"{key} ($\mathrm{{\degrees}}$)"
 
         draw_box_plot(
@@ -376,6 +375,7 @@ def main(input_path):
                 method_frame["ddE"].values,
                 method_frame["TDF"].values,
                 method_frame["RMSD"].values,
+                method_frame["FB OBJECTIVE"].values,
                 method_frame["Bond RMSD"].values,
                 method_frame["Angle RMSD"].values,
                 method_frame["Dihedral RMSD"].values,
@@ -389,6 +389,7 @@ def main(input_path):
         energies,
         tfds,
         full_rmsds,
+        fb_objectives,
         bond_rmsds,
         angle_rmsds,
         proper_rmsds,
@@ -403,6 +404,7 @@ def main(input_path):
             "Angle RMSD": angle_rmsds,
             "Proper RMSD": proper_rmsds,
             "Improper RMSD": improper_rmsds,
+            "FB OBJECTIVE" : fb_objectives, 
         },
         tfds,
         method_labels,
@@ -432,13 +434,14 @@ def main(input_path):
 
     per_environment_metrics = defaultdict(list)
 
-    for method_smiles, method_energies, method_tfds, method_rmsds, *_ in metrics:
+    for method_smiles, method_energies, method_tfds, method_rmsds, method_fb_objectives, *_ in metrics:
 
         method_data = pandas.DataFrame(
             {
                 "Energy": method_energies,
                 "RMSD": method_rmsds,
                 "TFD": method_tfds,
+                "FB OBJECTIVE": method_fb_objectives,
                 "SMILES": method_smiles,
             }
         )
@@ -454,6 +457,7 @@ def main(input_path):
                     chemical_environment_data["Energy"].values,
                     chemical_environment_data["RMSD"].values,
                     chemical_environment_data["TFD"].values,
+                    chemical_environment_data["FB OBJECTIVE"].values,
                     chemical_environment_data["SMILES"].values,
                 )
             )
@@ -462,13 +466,13 @@ def main(input_path):
 
     for chemical_environment, environment_metrics in per_environment_metrics.items():
 
-        environment_energies, environment_rmsds, environment_tfds, _ = zip(
+        environment_energies, environment_rmsds, environment_tfds, environment_fb_objectives, _ = zip(
             *environment_metrics
         )
 
         draw_plots(
             environment_energies,
-            {"RMSD": environment_rmsds},
+            {"RMSD": environment_rmsds, "FB OBJECTIVE":environment_fb_objectives},
             environment_tfds,
             method_labels,
             os.path.join("04-outputs", chemical_environment.value.lower()),
